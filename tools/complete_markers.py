@@ -18,6 +18,7 @@ and the script continues – so one broken file no longer stops the whole batch.
 from __future__ import annotations
 
 import datetime as _dt
+import re
 import sys
 from pathlib import Path
 from typing import Any, Dict, List
@@ -54,8 +55,9 @@ def _ensure_examples(data: Dict[str, Any]) -> Dict[str, Any]:
     # remove duplicates while preserving order
     seen = set()
     examples = [e for e in examples if not (e in seen or seen.add(e))]
+    marker_id = data.get("id", "MARKER")
     while len(examples) < MIN_EXAMPLES:
-        examples.append(f"{data.get('id', 'MARKER')} example {len(examples)+1}")
+        examples.append(f"TODO: Add example for {marker_id}")
     data["examples"] = examples
     return data
 
@@ -69,10 +71,19 @@ def _ensure_tags(data: Dict[str, Any]) -> Dict[str, Any]:
     return data
 
 
+def _slugify(text: str) -> str:
+    """Return a lowercase slug consisting of alphanumerics and underscores."""
+    text = re.sub(r"[^0-9A-Za-z]+", "_", text)
+    return text.strip("_").lower()
+
+
 def _ensure_meta(data: Dict[str, Any], marker_path: Path) -> Dict[str, Any]:
     # id
-    if not isinstance(data.get("id"), str) or not data["id"]:
-        data["id"] = marker_path.stem
+    raw_id = data.get("id") or marker_path.stem
+    slug = _slugify(str(raw_id))
+    if not slug.startswith("ld32_"):
+        slug = f"ld32_{slug}"
+    data["id"] = slug.upper()
     # author
     if not isinstance(data.get("author"), str):
         data["author"] = "unknown"
@@ -109,10 +120,10 @@ def normalize_marker(marker_path: Path) -> tuple[str, str]:
     if not isinstance(data, dict):
         return marker_path.name, "YAML_ERROR: not a mapping"
 
+    data = _ensure_meta(data, marker_path)
     data = _ensure_frame(data)
     data = _ensure_examples(data)
     data = _ensure_tags(data)
-    data = _ensure_meta(data, marker_path)
 
     with marker_path.open("w", encoding="utf-8") as fh:
         yaml.safe_dump(data, fh, allow_unicode=True, sort_keys=False)
@@ -142,7 +153,7 @@ def main() -> None:
     print(f"Processed: {ok + bad}")
     print(f"Normalised: {ok}")
     print(f"Skipped (YAML errors): {bad}")
-    print(f"Detailed log: {SUMMARY_LOG.relative_to(Path.cwd())}")
+    print(f"Detailed log: {SUMMARY_LOG}")
 
 
 if __name__ == "__main__":

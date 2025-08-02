@@ -12,6 +12,7 @@ Qualification criteria:
 """
 
 import os
+import json
 import yaml
 import shutil
 import logging
@@ -25,15 +26,22 @@ logger = logging.getLogger(__name__)
 
 class MarkerQualifier:
     """Validates and qualifies markers according to Lean Deep 3.1 model"""
-    
-    def __init__(self, marker_dir: str = "marker", final_dir: str = "final_marker_set"):
-        """Initialize the qualifier with source and destination directories"""
+
+    def __init__(
+        self,
+        marker_dir: str = "marker",
+        final_dir: str = "final_marker_set",
+        quarantine_dir: str = "quarantine",
+    ):
+        """Initialize the qualifier with directory paths"""
         self.marker_dir = Path(marker_dir)
         self.final_dir = Path(final_dir)
-        
+        self.quarantine_dir = Path(quarantine_dir)
+
         # Ensure directories exist
         self.marker_dir.mkdir(exist_ok=True)
         self.final_dir.mkdir(exist_ok=True)
+        self.quarantine_dir.mkdir(exist_ok=True)
     
     def validate_marker(self, marker_data: Dict[str, Any]) -> Dict[str, Any]:
         """
@@ -75,6 +83,8 @@ class MarkerQualifier:
         if 'id' in marker_data:
             if not marker_data['id'] or not isinstance(marker_data['id'], str):
                 errors.append("ID must be a non-empty string")
+            elif not marker_data['id'].startswith('LD32_'):
+                errors.append("ID must start with 'LD32_' prefix")
         
         return {
             'valid': len(errors) == 0,
@@ -107,17 +117,36 @@ class MarkerQualifier:
         validation_result = self.validate_marker(marker_data)
         
         if validation_result['valid']:
-            # Copy to final_marker_set
+            # Move to final_marker_set
             dest_path = self.final_dir / file_path.name
             try:
-                shutil.copy2(file_path, dest_path)
-                logger.info(f"✓ Qualified marker copied to: {dest_path}")
+                shutil.move(str(file_path), dest_path)
+                logger.info(f"✓ Qualified marker moved to: {dest_path}")
                 return True
             except Exception as e:
-                logger.error(f"Failed to copy marker to final set: {e}")
+                logger.error(f"Failed to move marker to final set: {e}")
                 return False
         else:
-            logger.warning(f"✗ Marker {file_path} failed qualification:")
+            # Move to quarantine and write error report
+            logger.warning(f"✗ Marker {file_path} failed qualification")
+            quarantine_path = self.quarantine_dir / file_path.name
+            try:
+                shutil.move(str(file_path), quarantine_path)
+            except Exception as e:
+                logger.error(f"Failed to move marker to quarantine: {e}")
+                return False
+
+            error_report = {
+                'file': file_path.name,
+                'errors': validation_result['errors'],
+            }
+            report_path = quarantine_path.with_suffix('.errors.json')
+            try:
+                with open(report_path, 'w', encoding='utf-8') as f:
+                    json.dump(error_report, f, indent=2, ensure_ascii=False)
+            except Exception as e:
+                logger.error(f"Failed to write error report: {e}")
+
             for error in validation_result['errors']:
                 logger.warning(f"  - {error}")
             return False
