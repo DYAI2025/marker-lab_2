@@ -1,0 +1,47 @@
+kategorie: SEMANTIC
+marker:
+  category: Semantic
+  context_rule: []
+  description: Künstlich erzeugter Zeitdruck oder Verknappung, um kritisches Nachdenken
+    zu verhindern und eine impulsive Entscheidung zugunsten des Manipulators zu erzwingen.
+  examples:
+  - Du musst dich bis heute Abend entscheiden, sonst ist das Angebot weg.
+  - Wenn die Überweisung nicht in der nächsten Stunde ankommt, verliere ich meinen
+    Platz.
+  - Antworte bitte sofort, mein Akku ist fast leer!
+  - Das ist eine einmalige Chance, die nie wieder kommt!
+  - Der Arzt operiert nur, wenn die Zahlung sofort eingeht.
+  - Die Frist läuft um Mitternacht ab, wir haben keine Zeit mehr zu verlieren.
+  - Nur noch zwei Plätze frei! Wir müssen jetzt buchen!
+  - Ich werde in 24 Stunden deportiert, wenn du mir nicht hilfst.
+  - Der Agent wartet nur noch 10 Minuten auf die Bestätigung.
+  - Ich kann das Paket nur noch heute auslösen, sonst geht es zurück.
+  - Bitte, es ist dringend, ich kann es später nicht mehr erklären.
+  - Handle jetzt, denk später nach!
+  - Jede Sekunde zählt.
+  - Die Auktion endet gleich, das ist unsere letzte Chance.
+  - Ich habe nur ein kurzes Zeitfenster mit Internetempfang, ich brauche deine Antwort
+    jetzt.
+  - Der Rabatt gilt nur noch für eine Stunde.
+  - Wenn wir das jetzt nicht klären, ist die Tür für immer zu.
+  - Ich brauche eine Entscheidung, ja oder nein, sofort.
+  - Ich stehe kurz vor dem Abschluss, aber die letzte Zahlung muss heute erfolgen.
+  - Zögere nicht, sonst könnte es zu spät sein.
+  id: S_URGENCY_SCARCITY
+  level: 2
+  name: URGENCY_SCARCITY
+  pattern: []
+  semantic_grabber_id: AUTO_SEM_20250714_90AF
+  semantic_tags:
+  - urgency-scarcity
+marker_name: URGENCY_SCARCITY
+psychologischer_hintergrund:
+- Kognitive Verzerrung (Scarcity Heuristic)
+- Stressreaktions-Induktion
+- Unterbindung von Due Diligence
+tags:
+- fraud
+- manipulation
+- zeitdruck
+- verknappung
+- verkaufstaktik

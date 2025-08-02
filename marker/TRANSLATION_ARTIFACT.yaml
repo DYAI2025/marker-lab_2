@@ -1,0 +1,46 @@
+kategorie: SEMANTIC
+marker:
+  category: Semantic
+  context_rule: []
+  description: Unnatürliche, fehlerhafte Grammatik oder seltsame Phrasen, die typischerweise
+    durch automatische Übersetzungsprogramme entstehen. Oft ein starker Kontrast zur
+    angeblich hohen Bildung oder dem Status der Person.
+  examples:
+  - Ich hoffe, dich bald zu umarmen mit meinen Armen.
+  - Du bist eine Frau von hoher Qualität.
+  - Meine Gefühle für dich sind wie Feuer brennen.
+  - Ich mache Arbeit als Ingenieur auf Meer.
+  - Bitte senden Sie mir das Geld für die Maschine Reparatur.
+  - Ich bin ein Mann von guter Moral und Kirche.
+  - Mein Herz ist springen für dich.
+  - Ich bin sehr allein hier ohne eine Familie zu kümmernd.
+  - Du bist meine Sonne scheinen in den Tag.
+  - Lass uns machen eine Zukunft zusammen.
+  - Ich schicke dir Kuss auf deine Lippe.
+  - Du hast ein Lächeln wie ein Engel von Gott.
+  - Ich bin ein ehrlicher Mann, ich mache kein Betrug zu dir.
+  - Meine Liebe, ich bin warten auf deine Antwort Brief.
+  - Ich habe Schmerz in meinem Kopf wegen der Sorge.
+  - Ich möchte dich treffen in Person Gesicht.
+  - Du bist die Frau meiner Träume in der Nacht.
+  - Mein Job ist sehr Gefahr, aber ich mache es für uns.
+  - Bitte schicke mir das Geld für das Essen zu kaufen.
+  - Ich liebe dich mehr als das Leben selbst tut.
+  id: S_TRANSLATION_ARTIFACT
+  level: 2
+  name: TRANSLATION_ARTIFACT
+  pattern: []
+  semantic_grabber_id: AUTO_SEM_20250714_360C
+  semantic_tags:
+  - translation-artifact
+marker_name: TRANSLATION_ARTIFACT
+psychologischer_hintergrund:
+- Sprachliche Inkompetenz
+- Unzureichende technologische Hilfsmittel (Übersetzer)
+- Forensische Linguistik als Aufdeckungsmethode
+tags:
+- fraud
+- sprache
+- übersetzung
+- forensik
+- inkonsistenz

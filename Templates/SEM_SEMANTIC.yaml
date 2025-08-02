@@ -1,0 +1,15 @@
+id: S_SUPPORT_PHRASES
+frame:
+  signal: ["Support-Formeln", "Hilfsangebote"]
+  concept: "Zugewandtheit"
+  pragmatics: "Bindungsstärkung"
+  narrative: "care"
+composed_of: [A_SUPPORT_FORMULA, A_LISTEN]
+activation: { rule: "ANY 2 IN 2 messages" }
+examples:
+  - "Ich bin immer für dich da, wenn du reden willst."
+  - "Meld dich, falls du Hilfe brauchst."
+  - "Sag Bescheid, wenn ich irgendwas erledigen kann."
+  - "Ich hör dir zu, egal, worum es geht."
+  - "Wenn du Unterstützung brauchst, schreib mir einfach."
+tags: [support, care]

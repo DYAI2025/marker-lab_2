@@ -1,0 +1,17 @@
+kategorie: ATOMIC
+marker:
+  category: Atomic
+  context_rule: []
+  description: Automatisch generierte Beschreibung für ANALYSIS_CONFIGURATION 2
+  examples:
+  - Automatisch generierte Beschreibung für ANALYSIS_CONFIGURATION 2
+  id: M_ANALYSIS_CONFIGURATION2
+  level: 1
+  name: ANALYSIS_CONFIGURATION 2
+  pattern: []
+  semantic_grabber_id: AUTO_SEM_20250714_BA58
+  semantic_tags:
+  - analysis-configuration 2
+marker_name: ANALYSIS_CONFIGURATION 2
+tags:
+- needs_review

@@ -1,0 +1,20 @@
+# GUILT_TRIPPING_MARKER - Semantic Marker
+marker_name: GUILT_TRIPPING_MARKER
+beschreibung: >
+  Implizite Schuldzuweisung, um das Gegenüber gefügig zu machen.
+beispiele:
+  - "Nach allem, was ich für dich getan habe…"
+  - "Schon okay, ich komm alleine klar."
+  - "Ich dachte, du wärst für mich da."
+  - "Ich hätte das nie von dir erwartet."
+  - "Ist gut, ich enttäusche mich halt selber."
+
+semantische_grabber_id: AUTO_SEM_20250723_7E89
+
+metadata:
+  created_at: 2025-07-23T00:57:45.260025
+  created_by: FRAUSAR_GUI_v2
+  version: 1.0
+  tags: [neu_erstellt, needs_review]
+
+kategorie: UNCATEGORIZED

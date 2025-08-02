@@ -1,0 +1,17 @@
+target_agent: CODEX
+task_id: TSK-2025-001
+description: >
+  Repariere alle SEM_ Marker gemäß Lean Deep 3.1,
+  insbesondere nach LD3.1-R01 bis LD3.1-R09.
+  Marker mit veraltetem Präfix (z. B. S_) umbenennen.
+required_rules:
+  - LD3.1-R01
+  - LD3.1-R03
+  - LD3.1-R06
+  - LD3.1-R09
+include_paths:
+  - markers/
+output_path: markers_repaired/
+note: >
+  Bei Verstoß gegen Pflichtfelder (frame fehlt o. ä.)
+  Fehler protokollieren, Marker auslassen.

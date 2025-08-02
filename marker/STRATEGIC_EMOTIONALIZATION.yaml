@@ -1,0 +1,19 @@
+kategorie: SEMANTIC
+marker:
+  category: Semantic
+  context_rule: []
+  description: Automatisch generierte Beschreibung für STRATEGIC_EMOTIONALIZATION
+  examples:
+  - 'name: "Strategic Emotionalization"'
+  - Detects the targeted use of appreciative, emotional rhetoric to enhance a person's
+    sense of belonging, self-efficacy, and thus their willingness to participate.
+    These statements are flattering and val
+  - 'category: "Emotional Commitment"'
+  id: S_STRATEGIC_EMOTIONALIZATION
+  level: 2
+  name: STRATEGIC_EMOTIONALIZATION
+  pattern: []
+  semantic_grabber_id: AUTO_SEM_20250714_2E7E
+  semantic_tags:
+  - strategic-emotionalization
+marker_name: STRATEGIC_EMOTIONALIZATION

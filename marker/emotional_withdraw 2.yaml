@@ -1,0 +1,17 @@
+kategorie: ATOMIC
+marker:
+  category: Atomic
+  context_rule: []
+  description: Automatisch generierte Beschreibung für emotional_withdraw 2
+  examples:
+  - Automatisch generierte Beschreibung für emotional_withdraw 2
+  id: M_EMOTIONAL_WITHDRAW2
+  level: 1
+  name: emotional_withdraw 2
+  pattern: []
+  semantic_grabber_id: AUTO_SEM_20250714_4946
+  semantic_tags:
+  - emotional-withdraw 2
+marker_name: emotional_withdraw 2
+tags:
+- needs_review

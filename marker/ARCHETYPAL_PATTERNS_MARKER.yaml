@@ -1,0 +1,21 @@
+# ARCHETYPAL_PATTERNS_MARKER - Semantic Marker
+marker_name: ARCHETYPAL_PATTERNS_MARKER
+beschreibung: >
+  Explizite Bezüge auf kollektive Archetypen (Held, Schatten, Weise, Narr …),
+genutzt zur Selbst- oder Fremdbeschreibung.
+beispiele:
+  - "Ich fühl mich wie der ewige Held, der kämpfen muss."
+  - "Sie spielt hier die weise Alte."
+  - "Das ist mein innerer Narr, der laut wird."
+  - "Er projiziert den Schatten auf mich."
+  - "Wir brauchen einen Hüter der Schwelle."
+
+semantische_grabber_id: AUTO_SEM_20250723_E7D7
+
+metadata:
+  created_at: 2025-07-23T00:23:34.248578
+  created_by: FRAUSAR_GUI_v2
+  version: 1.0
+  tags: [neu_erstellt, needs_review]
+
+kategorie: UNCATEGORIZED

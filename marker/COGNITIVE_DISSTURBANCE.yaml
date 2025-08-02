@@ -1,0 +1,27 @@
+kategorie: SEMANTIC
+marker:
+  category: Semantic
+  context_rule: []
+  description: Automatisch generierte Beschreibung für COGNITIVE_DISSTURBANCE
+  examples:
+  - 'Gaslighting: Eine Person wird systematisch dazu gebracht, an ihrer eigenen Wahrnehmung,
+    Erinnerung oder ihrem Verstand zu zweifeln. Ziel ist es, das Opfer zu desorientieren
+    und von der Einschätzung de'
+  - 'Beispiel: Nach einer klaren Aussage sagt der Manipulator später: „Das habe ich
+    nie gesagt. Das bildest du dir nur ein.“'
+  - 'Spaltung (Splitting): Personen oder Situationen werden in extrem positive („nur
+    gut“) oder extrem negative („nur schlecht“) Kategorien eingeteilt. Dies zwingt
+    das Umfeld, Partei zu ergreifen und schaf'
+  - 'Beispiel: „Dein Freund ist ein Engel, aber deine Schwester ist durch und durch
+    böse und will uns nur schaden.“'
+  - 'Rationalisierung: Scheinbar logische und plausible Gründe werden für ein inakzeptables
+    Verhalten vorgeschoben, um die wahren, egoistischen Motive zu verschleiern und
+    Kritik abzuwehren.'
+  id: S_COGNITIVE_DISSTURBANCE
+  level: 2
+  name: COGNITIVE_DISSTURBANCE
+  pattern: []
+  semantic_grabber_id: AUTO_SEM_20250714_CE1F
+  semantic_tags:
+  - cognitive-dissturbance
+marker_name: COGNITIVE_DISSTURBANCE

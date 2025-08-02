@@ -1,0 +1,19 @@
+kategorie: SEMANTIC
+marker:
+  category: Semantic
+  context_rule: []
+  description: Automatisch generierte Beschreibung für gitignore
+  examples:
+  - '*.egg-info/'
+  - .installed.cfg
+  - pip-log.txt
+  - pip-delete-this-directory.txt
+  - .coverage.*
+  id: S_GITIGNORE
+  level: 2
+  name: gitignore
+  pattern: []
+  semantic_grabber_id: AUTO_SEM_20250714_693F
+  semantic_tags:
+  - gitignore
+marker_name: gitignore

@@ -1,0 +1,16 @@
+id: MM_RELATIONSHIP_STRENGTH
+frame:
+  signal: ["Stabile Support- und Loyalitätsmuster"]
+  concept: "Langfristige Bindung"
+  pragmatics: "Verlässlichkeit"
+  narrative: "foundation"
+composed_of: [C_EMOTIONAL_SUPPORT, C_FRIENDSHIP_SIGNALING]
+activation: { rule: "ANY 2 IN 30 messages" }
+scoring: { base: 2.5, weight: 1.7 }
+examples:
+  - "Mehrere Wochen starke, beständige Fürsorge und Unterstützung."
+  - "Viele Hinweise auf Loyalität, Freundschaft, Hilfe – kaum Brüche."
+  - "Stabiler Beziehungsfokus in fast allen Chatphasen."
+  - "Wenig Fluktuation, hohe Signalrate von 'bin immer für dich da'."
+  - "Der Chat bleibt stützend, selbst in Krisen."
+tags: [beziehung, loyalität, meta]

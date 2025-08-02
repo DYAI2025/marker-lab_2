@@ -1,0 +1,20 @@
+# INSECURE_PULL_MARKER - Semantic Marker
+marker_name: INSECURE_PULL_MARKER
+beschreibung: >
+  Unsicherheits-Pings, die Bestätigung oder Zusicherung suchen.
+beispiele:
+  - "Magst du mich noch?"
+  - "Bin ich dir wichtig?"
+  - "Sag ehrlich, findest du mich attraktiv?"
+  - "Sorry, war ich zu anhänglich?"
+  - "Bist du morgen noch da für mich?"
+
+semantische_grabber_id: AUTO_SEM_20250723_0CC9
+
+metadata:
+  created_at: 2025-07-23T00:58:07.221845
+  created_by: FRAUSAR_GUI_v2
+  version: 1.0
+  tags: [neu_erstellt, needs_review]
+
+kategorie: UNCATEGORIZED

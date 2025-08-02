@@ -1,0 +1,17 @@
+kategorie: ATOMIC
+marker:
+  category: Atomic
+  context_rule: []
+  description: Automatisch generierte Beschreibung für REPORT_TEMPLATES
+  examples:
+  - Automatisch generierte Beschreibung für REPORT_TEMPLATES
+  id: M_REPORT_TEMPLATES
+  level: 1
+  name: REPORT_TEMPLATES
+  pattern: []
+  semantic_grabber_id: AUTO_SEM_20250714_25E0
+  semantic_tags:
+  - report-templates
+marker_name: REPORT_TEMPLATES
+tags:
+- needs_review

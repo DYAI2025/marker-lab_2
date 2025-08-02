@@ -1,0 +1,25 @@
+# templates/A_TEMPLATE.yaml
+id: A_<NAME>
+frame:
+  signal:
+    - "<Signal-Phrase 1>"
+    - "<Signal-Phrase 2>"
+  concept: "<Kurzbegriff (z.B. ‘Zuverlässigkeit’)>"
+  pragmatics: "<Kommunikative Funktion (z.B. ‘Unterstützung’)>"
+  narrative: "<Erzähl-Logik (z.B. ‘offer’)>"
+pattern:
+  - "<regex oder Literal-Phrase 1>"
+  - "<regex oder Literal-Phrase 2>"
+  - "<… mindestens 2 weitere Patterns …>"
+examples:
+  - "<Beispiel-Satz 1>"
+  - "<Beispiel-Satz 2>"
+  - "<Beispiel-Satz 3>"
+  - "<Beispiel-Satz 4>"
+  - "<Beispiel-Satz 5>"
+scoring:
+  base: 1.0
+  weight: 1.0
+tags:
+  - "<tag1>"
+  - "<tag2>"

@@ -1,0 +1,59 @@
+kategorie: SEMANTIC
+marker:
+  category: Semantic
+  context_rule: []
+  description: Der oft drängende oder manipulativ begründete Vorschlag, von einer
+    öffentlichen/Dating-Plattform auf einen privaten Kommunikationskanal (WhatsApp,
+    Telegram etc.) zu wechseln.
+  examples:
+  - Diese App ist so unpersönlich. Lass uns doch zu WhatsApp wechseln, da fühlt es
+    sich echter an.
+  - Ich kann hier keine Videos in guter Qualität senden. Gib mir mal deine Nummer,
+    dann zeige ich dir, wo ich gerade bin.
+  - Ich bin selten hier online, um ehrlich zu sein. Auf Telegram antworte ich dir
+    sofort.
+  - Die Benachrichtigungen hier funktionieren kaum. Bevor wir uns aus den Augen verlieren,
+    lass uns lieber auf Signal schreiben.
+  - Ich glaube, meine Mitgliedschaft hier läuft bald ab. Lass uns doch per E-Mail
+    in Kontakt bleiben, um sicherzugehen.
+  - Ich finde Sprachnachrichten viel schöner als Tippen. Auf WhatsApp ist das viel
+    einfacher.
+  - Vertrauen ist mir wichtig. Telegram ist Ende-zu-Ende-verschlüsselt, das fühlt
+    sich sicherer an. Bist du da auch?
+  - Die App komprimiert Bilder so stark. Ich würde dir gerne ein paar schöne Fotos
+    von mir schicken, vielleicht per Hangouts?
+  - Ich fliege morgen für ein paar Wochen weg und habe dann nur noch E-Mail-Zugang.
+  - Ich will nicht, dass unser Chat hier für jeden sichtbar ist. Ein privater Messenger
+    wäre mir lieber.
+  - Irgendwie ist die Verbindung hier schlecht. Lass uns mal sehen, ob ein WhatsApp-Call
+    besser funktioniert.
+  - Ich mag es, Dinge zu teilen. Auf Telegram kann ich dir ganz einfach lustige Sticker
+    und GIFs schicken.
+  - Du wirkst so sympathisch, ich würde dich gerne in meine regulären Kontakte aufnehmen.
+  - Mein Handy-Akku geht schnell leer von dieser App. WhatsApp ist da viel sparsamer.
+  - Ich muss diese App bald löschen, sie braucht zu viel Speicherplatz. Können wir
+    auf E-Mail umsteigen?
+  - Ich verliere hier den Überblick. Lass uns unsere Unterhaltung auf einen Kanal
+    konzentrieren.
+  - Bist du auf Instagram? Da kann ich dir mehr von meinem Leben zeigen.
+  - Ich glaube, diese Seite ist nicht ganz sicher. Ein Wechsel wäre klüger.
+  - Die Schrift hier ist so klein. Es wäre auf einem anderen Messenger angenehmer.
+  - Ich will dir etwas Wichtiges anvertrauen, aber lieber nicht hier.
+  id: S_PLATFORM_SWITCH
+  level: 2
+  name: PLATFORM_SWITCH
+  pattern: []
+  semantic_grabber_id: AUTO_SEM_20250714_B9DC
+  semantic_tags:
+  - platform-switch
+marker_name: PLATFORM_SWITCH
+psychologischer_hintergrund:
+- Social Engineering
+- Grooming-Taktik im Romance Scamming
+- Aufbau einer "privaten Sphäre" zur Isolationsvorbereitung
+tags:
+- fraud
+- social engineering
+- datingscam
+- frühwarnung
+- isolation

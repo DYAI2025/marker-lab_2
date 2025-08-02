@@ -1,0 +1,75 @@
+# FLIRT_DRIFT_DETECTIO_MARKER - Semantic Marker
+marker_name: FLIRT_DRIFT_DETECTIO_MARKER
+beschreibung: >
+  # ---------- Hilfsfunktionen ----------
+def openness_score(msg):
+    """Sehr grobe Heuristik: je mehr Self-Disclosure-Marker, desto höher."""
+    return (
+        2 * msg.count("A_RAPID_SELF_DISCLOSURE")
+        + 1 * msg.count("A_SOFT_FLIRT")
+        + 0.5 * msg.count("A_SOFT_COMMITMENT")
+    )
+
+def time_diff(t1, t2):
+    return abs((t2 - t1).total_seconds())
+beispiele:
+  - "from collections import deque, Counter"
+  - "from datetime import timedelta"
+  - "import numpy as np"
+  - "# ---------- Kerndetektor ----------"
+  - "def detect_flirt_drift(chats, marker_lookup,"
+  - "window_days=10,"
+  - "min_hits=4,"
+  - "openness_slope_min=0.15):"
+  - """""
+  - "chats:   iterable[dict]   [{id, ts, text, markers:[ids]}] chronologisch"
+  - "returns: (bool, span, diagnostics)"
+  - """""
+  - "W = timedelta(days=window_days)"
+  - "buf   = deque()          # Sliding-window-Puffer"
+  - "hits  = []               # Zeitstempel relevanter Treffer"
+  - "scores= []               # Offenheits-Scores"
+  - "flirt_clusters = {"C_SOFT_FLIRT", "C_RAPID_SELF_DISCLOSURE","
+  - ""C_SOFT_COMMITMENT", "C_ADAPTIVE_POLARIZATION","
+  - ""C_SECRET_BONDING", "C_AMBIVALENCE"}"
+  - "for msg in chats:"
+  - "ts   = msg["ts"]"
+  - "mset = set(marker_lookup[msg["id"]])"
+  - "# ----- relevanter Treffer? -----"
+  - "if mset & flirt_clusters:"
+  - "buf.append((ts, msg))"
+  - "hits.append(ts)"
+  - "scores.append(openness_score(mset))"
+  - "# ----- Fenster trimmen -----"
+  - "while hits and time_diff(hits[0], ts) > W.total_seconds():"
+  - "hits.pop(0)"
+  - "scores.pop(0)"
+  - "buf.popleft()"
+  - "# ----- Trigger-Kriterien prüfen -----"
+  - "if len(hits) >= min_hits:"
+  - "# Offenheits-Steigung (Simple Linear Regression auf Score-Zeit)"
+  - "times = np.arange(len(scores))"
+  - "if len(scores) > 1:"
+  - "slope = np.polyfit(times, scores, 1)[0]"
+  - "else:"
+  - "slope = 0"
+  - "freq_steigt = len(hits) >= min_hits"
+  - "if slope > openness_slope_min and freq_steigt:"
+  - "diagnostics = {"
+  - ""hits": len(hits),"
+  - ""slope": round(slope, 3),"
+  - ""window_start": hits[0],"
+  - ""window_end": hits[-1],"
+  - "}"
+  - "return True, list(buf), diagnostics"
+  - "return False, [], {}"
+
+semantische_grabber_id: AUTO_SEM_20250720_8927
+
+metadata:
+  created_at: 2025-07-20T11:51:34.122341
+  created_by: FRAUSAR_GUI_v2
+  version: 1.0
+  tags: [neu_erstellt, needs_review]
+
+kategorie: UNCATEGORIZED

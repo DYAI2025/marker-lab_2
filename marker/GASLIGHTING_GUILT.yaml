@@ -1,0 +1,53 @@
+kategorie: SEMANTIC
+marker:
+  category: Semantic
+  context_rule: []
+  description: Eine Kombination aus Realitätsverdrehung (Gaslighting) und Schuldzuweisung,
+    die speziell dann eingesetzt wird, wenn das Opfer beginnt, Zweifel an der Geschichte
+    oder den Forderungen zu äußern.
+  examples:
+  - Nach allem, was wir geteilt haben, tust du mir weh, wenn du meine Liebe anzweifelst.
+  - Ich dachte, wir hätten eine besondere Verbindung, aber dein Misstrauen zerstört
+    alles.
+  - Vielleicht bist du einfach noch nicht bereit für eine so tiefe und ehrliche Beziehung
+    wie unsere.
+  - Du reagierst über. Es ist eine kleine Bitte unter Menschen, die sich lieben werden.
+  - Ich öffne dir mein Herz und alles, was du tust, ist, meine Motive in Frage zu
+    stellen.
+  - Hör auf, Probleme zu suchen, wo keine sind. Entspann dich und vertrau mir einfach.
+  - Wenn du jetzt einen Rückzieher machst, zeigst du mir nur, dass deine Gefühle nie
+    echt waren.
+  - Du lässt dich von den negativen Geschichten anderer Leute beeinflussen, anstatt
+    auf dein eigenes Herz zu hören.
+  - Es bricht mir das Herz, dass du so wenig an uns glaubst.
+  - Warum versuchst du, unsere schöne Geschichte mit Logik zu ruinieren?
+  - Du bist derjenige, der hier kompliziert ist, nicht die Situation.
+  - Ich habe dir meine Seele offenbart und du kommst mir mit solchen trivialen Sorgen.
+  - Du bist also genau wie alle anderen, misstrauisch und ängstlich.
+  - Es scheint, als würdest du absichtlich versuchen, unsere Beziehung zu sabotieren.
+  - Ich bin enttäuscht. Ich dachte, du wärst anders.
+  - Du solltest dich schämen, so über mich zu denken.
+  - Meine Bitte ist ein Test für dein Vertrauen, und du bist gerade dabei, ihn nicht
+    zu bestehen.
+  - Du machst aus einer Mücke einen Elefanten und merkst es nicht einmal.
+  - Wenn du mich wirklich kennen würdest, würdest du solche Fragen nicht stellen.
+  - Hör auf, wie meine Ex zu klingen. Sie hat auch alles zerredet.
+  id: S_GASLIGHTING_GUILT
+  level: 2
+  name: GASLIGHTING_GUILT
+  pattern: []
+  semantic_grabber_id: AUTO_SEM_20250714_7539
+  semantic_tags:
+  - gaslighting-guilt
+marker_name: GASLIGHTING_GUILT
+psychologischer_hintergrund:
+- Abwehrmechanismus: Projektion, Externalisierung
+- Emotionale Erpressung
+- Aufrechterhaltung der Kontrolle in einer manipulativen Dynamik
+tags:
+- fraud
+- gaslighting
+- schuld
+- manipulation
+- zweifel
+- kontrolle

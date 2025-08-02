@@ -1,0 +1,51 @@
+kategorie: SEMANTIC
+marker:
+  category: Semantic
+  context_rule: []
+  description: Die Forderung nach einer Zahlungsmethode, die nicht oder nur schwer
+    rückverfolgbar ist, wie z.B. Geschenkkarten, Kryptowährungen oder Bargeldtransferdienste.
+  examples:
+  - Am einfachsten wäre es, wenn du mir ein paar Amazon-Geschenkkarten kaufst und
+    die Codes fotografierst.
+  - Eine Überweisung dauert zu lange, per Western Union ist das Geld sofort da.
+  - Kryptowährungen wie Bitcoin sind der sicherste und anonymste Weg, mir zu helfen.
+  - Bitte sende das Geld nicht auf mein Konto, sondern an meinen Agenten über MoneyGram.
+  - Du kannst das Geld auf eine Prepaid-Kreditkarte laden und mir die Daten schicken.
+  - In meinem Land ist es schwierig, Banküberweisungen zu empfangen, aber Gift Cards
+    funktionieren immer.
+  - Es ist besser, wenn keine offiziellen Spuren existieren, das schützt uns beide.
+  - Kauf einfach ein paar Steam-Karten an der Tankstelle, das ist total unkompliziert.
+  - Wir können einen Transfer über einen Freund von mir machen, der ein Krypto-Wallet
+    hat.
+  - Die Klinik akzeptiert nur Zahlungen über einen bestimmten, nicht registrierten
+    Dienstleister.
+  - Überweise es nicht, hebe es bar ab und gib es einem Kurier, den ich schicke.
+  - Apple-Pay-Guthabenkarten sind perfekt, die kann ich direkt hier einlösen.
+  - Ich möchte nicht, dass die Regierung Fragen stellt, deshalb bitte keine Bank.
+  - Das ist eine Grauzonen-Transaktion, Geschenkkarten sind da der Standard.
+  - Ich will dich nicht in Schwierigkeiten bringen, deshalb wählen wir einen diskreten
+    Weg.
+  - Es gibt spezielle Automaten, an denen du Bargeld in Bitcoin umwandeln kannst.
+  - Schick es nicht an meinen Namen, sondern an den Namen, den ich dir gleich gebe.
+  - Ich erkläre dir genau, wie du die Paysafecards kaufst.
+  - Es ist wie ein Geschenk, also sind Geschenkkarten der logische Weg.
+  - Vertrau mir, das ist die gängige Methode für internationale Hilfe unter Freunden.
+  id: S_UNTRACEABLE_PAYMENT_METHOD
+  level: 2
+  name: UNTRACEABLE_PAYMENT_METHOD
+  pattern: []
+  semantic_grabber_id: AUTO_SEM_20250714_A74F
+  semantic_tags:
+  - untraceable-payment-method
+marker_name: UNTRACEABLE_PAYMENT_METHOD
+psychologischer_hintergrund:
+- Kriminalität und Strafverfolgungsvermeidung
+- Geldwäschetechniken
+- Ausnutzung der Unerfahrenheit des Opfers mit alternativen Zahlungsmethoden
+tags:
+- fraud
+- zahlung
+- anonym
+- crypto
+- westernunion
+- giftcard

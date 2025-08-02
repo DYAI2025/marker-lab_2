@@ -1,0 +1,14 @@
+id: A_SUPPORT_FORMULA
+frame:
+  signal: ["Ich bin für dich da", "Meld dich, wenn was ist", "Sag Bescheid"]
+  concept: "Support-Ankündigung"
+  pragmatics: "Zugewandtheit zeigen"
+  narrative: "offer"
+pattern: ["ich bin für dich da", "meld dich, wenn", "sag bescheid"]
+examples:
+  - "Ich bin immer für dich da."
+  - "Meld dich, falls du was brauchst."
+  - "Sag Bescheid, wenn du Unterstützung brauchst."
+  - "Jederzeit, wenn du etwas brauchst."
+  - "Du kannst dich immer melden."
+tags: [support, offer]

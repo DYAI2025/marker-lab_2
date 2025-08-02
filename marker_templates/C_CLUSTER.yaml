@@ -1,0 +1,21 @@
+# Level 3 – Cluster Marker
+id: C_EXAMPLE_CLUSTER
+marker: EXAMPLE_CLUSTER
+description: "Combination of doubt and time-pressure markers."
+level: 3
+version: "1.0.0"
+status: draft
+author: "template"
+created: "2024-01-01T00:00:00Z"
+last_modified: "2024-01-01T00:00:00Z"
+tags: [cluster, combination, complex]
+category: "CLUSTER"
+risk_score: 3
+cluster_components:
+  - A_WENIG_ZEIT
+  - S_EXAMPLE_SEMANTIC
+trigger_threshold: 2       # min components
+activation_logic: "ANY"
+examples:
+  - "Sorry, gerade keine Zeit – melde mich später."
+window: { messages: 20 }

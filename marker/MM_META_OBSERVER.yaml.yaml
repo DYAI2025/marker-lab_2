@@ -1,0 +1,18 @@
+id: MM_META_OBSERVER
+level: 4
+lang: de
+description: "Detektiert und protokolliert Meta-Ebenen-Wechsel und explizite Marker-Referenzen im Diskurs"
+frame_ref: Meta_reflexion::Marker_Dialog
+trigger:
+  - pattern: "Marker"
+  - pattern: "Frame"
+  - pattern: "Interpretation"
+  - pattern: "Meta-Analyse"
+  - pattern: "referenziert"
+activation_logic: "COUNT(pattern) >= 2 WITHIN 1000 tokens"
+output:
+  path: /mnt/memory/meta_observer/
+  format: meta_marker_event.json
+examples:
+  - "In deiner Interpretation beziehst du dich auf meine Marker-Logik."
+  - "Das ist ein Frame-Semantics-Vergleich auf Metaebene."

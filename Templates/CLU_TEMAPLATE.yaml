@@ -1,0 +1,22 @@
+  id: CLU_EXAMPLE_MARKER
+  category: CLUSTER
+  description: "Beschreibt ein typisches emergentes Bedeutungsbündel aus Einzelmarkern."
+  frame:
+    signal: "Welche Impulse zeigen sich?"
+    concept: "Was wird hier verknüpft oder gemeinsam lesbar?"
+    pragmatics: "Was bedeutet das im Handlungskontext?"
+    narrative: "Was ist der größere Zusammenhang oder das implizite Narrativ?"
+  semantic_grab:
+    description: "Erkennt Cluster von Marker-Mustern im diskursiven Raum."
+    patterns:
+      - pattern: r"(marker_\d{2,})"
+        rule: AUTO_PATTERN
+  examples:
+    - "Ein Beispieltext mit mindestens zwei verknüpfbaren Einzelmarkern."
+    - "Ein weiteres Beispiel, das Clusterbildung ermöglicht."
+  tags:
+    - cluster
+    - needs_review
+  metadata:
+    created_by: system
+    created_at: 2025-08-02T00:00:00Z

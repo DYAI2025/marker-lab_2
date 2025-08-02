@@ -1,0 +1,19 @@
+kategorie: SEMANTIC
+marker:
+  category: Semantic
+  context_rule: []
+  description: Automatisch generierte Beschreibung für requirements_txt
+  examples:
+  - pyyaml>=6.0.1
+  - pandas>=2.1.0
+  - numpy>=1.24.0
+  - regex>=2023.8.8
+  - fuzzywuzzy>=0.18.0
+  id: S_REQUIREMENTS_TXT
+  level: 2
+  name: requirements_txt
+  pattern: []
+  semantic_grabber_id: AUTO_SEM_20250714_DFF9
+  semantic_tags:
+  - requirements-txt
+marker_name: requirements_txt

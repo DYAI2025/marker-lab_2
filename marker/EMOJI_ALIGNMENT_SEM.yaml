@@ -1,0 +1,17 @@
+kategorie: SEMANTIC
+marker:
+  category: Semantic
+  context_rule: []
+  description: Automatisch generierte Beschreibung für EMOJI_ALIGNMENT_SEM
+  examples:
+  - cat > EMOJI_ALIGNMENT_SEM.yaml <<EOF
+  - Spiegelung und Angleichung im Emoji-Verhalten; identische oder aufeinander folgende
+    Emoji-Nutzung als Zeichen emotionaler Verbundenheit.
+  id: S_EMOJI_ALIGNMENT_SEM
+  level: 2
+  name: EMOJI_ALIGNMENT_SEM
+  pattern: []
+  semantic_grabber_id: AUTO_SEM_20250714_37AA
+  semantic_tags:
+  - emoji-alignment-sem
+marker_name: EMOJI_ALIGNMENT_SEM

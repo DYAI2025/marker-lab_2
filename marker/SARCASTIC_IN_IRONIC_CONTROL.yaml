@@ -1,0 +1,46 @@
+kategorie: ATOMIC
+marker:
+  category: Atomic
+  context_rule: []
+  description: Automatisch generierte Beschreibung für SARCASTIC_IN_IRONIC_CONTROL
+  examples:
+  - Ach, du konntest dir meine Nachricht von gestern nicht leisten? Kein Problem,
+    ich finanziere gern auch dein Schweigen.
+  - Weißt du, dein „Ich war eingeschlafen“ klingt fast so romantisch wie ein Liebesbrief.
+  - Natürlich vertraue ich dir – sonst hätte ich dir ja nicht schon meinen Selbstwert
+    überwiesen.
+  - Kein Stress, behalt dein Versprechen einfach. Es steht dir wirklich gut, so ungetragen.
+  - Oh, du brauchst nur eine Woche Funkstille, um über uns nachzudenken? Ich pack
+    schon mal Proviant für die Ewigkeit.
+  - Danke, dass du mich blockierst; so sehe ich endlich, wie frei du mich machen willst.
+  - Stell dir vor, ich habe wirklich geglaubt, dass „bald“ eine Zeiteinheit und kein
+    Passwort ist.
+  - Klar, ich sollte dich nicht mit meinen Sorgen nerven – schließlich bist du schon
+    beschäftigt, mich zu retten.
+  - Dein Schweigen spricht Bände – aber nur in einer Sprache, in der ich Schuld heiße.
+  - Unglaublich, wie sehr ich deine Zukunftspläne genieße, während meine Gegenwart
+    auf „Wartemusik“ steht.
+  - Herrlich, du hast wieder vergessen, mich zu vergessen – so viel Aufmerksamkeit
+    macht schwindelig.
+  - Super Idee, mir immer dann Liebe zu schwören, wenn dein Akku und mein Konto leer
+    sind.
+  - Ja, kauf dir ruhig Zeit, ich zahle in Erwartungen.
+  - Entspann dich, Tränen trocknen schneller als Kreditrahmen.
+  - Ich wusste gar nicht, dass „Wir“ nur die Einzahl von „Ich“ ist.
+  - Wie süß, du hast meinen Geburtstag mit einem Abo auf Hoffnung verwechselt.
+  - Natürlich nennt man das Commitment – es ist eben fest versprochen, nie stattzufinden.
+  - Keine Sorge, ich bin nicht verletzt; ich übe nur schon mal das Alleinlaufen für
+    später.
+  - Wenn kalte Schultern heizen könnten, wären wir ein nachhaltiges Paar.
+  - So lieb, dass du mich ghostest. Spart mir die Sterne, die ich sonst für dich vom
+    Himmel holen müsste.
+  id: M_SARCASTIC_IN_IRONIC_CONTROL
+  level: 1
+  name: SARCASTIC_IN_IRONIC_CONTROL
+  pattern: []
+  semantic_grabber_id: AUTO_SEM_20250714_B147
+  semantic_tags:
+  - sarcastic-in-ironic-control
+marker_name: SARCASTIC_IN_IRONIC_CONTROL
+tags:
+- needs_review

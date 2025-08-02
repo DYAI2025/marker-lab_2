@@ -1,0 +1,19 @@
+kategorie: SEMANTIC
+marker:
+  category: Semantic
+  context_rule: []
+  description: Automatisch generierte Beschreibung für LATENT_EXPECTATION
+  examples:
+  - 'name: "Latent Expectation"'
+  - Identifies statements that frame a request as optional or voluntary ('no pressure')
+    but use an emotional or logical subtext to create a strong, unspoken expectation
+    to comply. The strategy relies on s
+  - 'category: "Subtle Expectation Pressure"'
+  id: S_LATENT_EXPECTATION
+  level: 2
+  name: LATENT_EXPECTATION
+  pattern: []
+  semantic_grabber_id: AUTO_SEM_20250714_5610
+  semantic_tags:
+  - latent-expectation
+marker_name: LATENT_EXPECTATION

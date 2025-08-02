@@ -1,0 +1,16 @@
+{
+    "id": "SCR_TEMPLATE",
+    "description": "Generic score window template",
+    "target_markers": [
+      "S_EXAMPLE_SEMANTIC",
+      "C_EXAMPLE_CLUSTER"
+    ],
+    "window": {
+      "messages": 30
+    },
+    "aggregation": {
+      "method": "sum",
+      "decay": 0.02
+    }
+  }
+  

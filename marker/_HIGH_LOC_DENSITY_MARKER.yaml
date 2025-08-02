@@ -1,0 +1,37 @@
+# _HIGH_LOC_DENSITY_MARKER - Semantic Marker
+marker_name: _HIGH_LOC_DENSITY_MARKER
+beschreibung: >
+  - id: "S_HIGH_LOC_DENSITY"
+  level: 2
+  version: "1.0.0"
+  author: "auto_gpt"
+  created_at: "2025-07-18"
+  status: "draft"
+  lang: "de"
+  name: "HIGH_LOC_DENSITY"
+  description: "Hohe Dichte an Orts-Entitäten in einem Textabschnitt."
+  composed_of:
+    - type: atomic
+      marker_ids: ["A_LOC"]
+  rules:
+    - type: frequency
+      threshold: 4
+      scope: "token_window"
+      value: 100
+beispiele:
+  - "examples:"
+  - "- "Berlin, München, Hamburg, Köln und Frankfurt sind Metropolen.""
+  - "- "Paris, Lyon, Marseille und Toulouse liegen in Frankreich.""
+  - "- "Sydney, Melbourne, Brisbane und Adelaide sind in Australien.""
+  - "- "New York, Los Angeles, Chicago und Houston sind Großstädte.""
+  - "- "Tokyo, Osaka, Kyoto und Hiroshima in Japan besucht.""
+
+semantische_grabber_id: AUTO_SEM_20250718_6E8B
+
+metadata:
+  created_at: 2025-07-18T03:24:54.023344
+  created_by: FRAUSAR_GUI_v2
+  version: 1.0
+  tags: [neu_erstellt, needs_review]
+
+kategorie: UNCATEGORIZED

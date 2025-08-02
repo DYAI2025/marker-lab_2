@@ -1,0 +1,21 @@
+# Level 2 – Semantic Marker
+id: S_EXAMPLE_SEMANTIC
+marker: EXAMPLE_SEMANTIC
+description: "Detects polite, indirect refusals."
+level: 2
+version: "1.0.0"
+status: draft
+author: "template"
+created: "2024-01-01T00:00:00Z"
+last_modified: "2024-01-01T00:00:00Z"
+tags: [semantic, context, meaning]
+category: "SEMANTIC"
+risk_score: 2
+pattern:
+  - "(melde.*später|keine zeit|gerade stressig)"
+examples:
+  - "Kann ich dir morgen Bescheid geben?"
+semantic_rules:
+  - "Detects expressions of uncertainty"
+  - "Identifies contextual doubt patterns"
+window: { messages: 5 }

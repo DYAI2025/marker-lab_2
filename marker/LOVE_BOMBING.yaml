@@ -1,0 +1,24 @@
+kategorie: SEMANTIC
+marker:
+  category: Semantic
+  context_rule: []
+  description: Automatisch generierte Beschreibung für LOVE_BOMBING
+  examples:
+  - 'name: "Love Bombing"'
+  - Übertriebene, überschnelle Zuneigung und Aufmerksamkeit, oft mit starken Versprechen,
+    Komplimenten und Zukunftsvisionen direkt zu Beginn einer Beziehung.
+  - 'dynamik_absicht: Das Ziel ist, das Gegenüber mit positiven Emotionen zu überwältigen,
+    kritisches Denken auszuschalten und eine Grundlage der Verpflichtung und Abhängigkeit
+    für spätere Forderungen zu s'
+  - The act of overwhelming a person with excessive signs of affection, attention,
+    and adoration, especially at the beginning of a relationship. The goal is often
+    to create emotional dependency and contro
+  - 'category: "Manipulative Affection"'
+  id: S_LOVE_BOMBING
+  level: 2
+  name: LOVE_BOMBING
+  pattern: []
+  semantic_grabber_id: AUTO_SEM_20250714_9FA1
+  semantic_tags:
+  - love-bombing
+marker_name: LOVE_BOMBING

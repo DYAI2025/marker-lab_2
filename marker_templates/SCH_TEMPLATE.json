@@ -1,0 +1,13 @@
+{
+    "id": "SCH_BEZIEHUNG",
+    "weights": {
+      "A_": 1.0,
+      "S_": 1.0,
+      "C_": 1.2,
+      "MM_": 1.5
+    },
+    "window": { "messages": 100 },
+    "decay": 0.005,
+    "notes": "Beziehungsanalyse – Meta-Marker stärker gewichten."
+  }
+  

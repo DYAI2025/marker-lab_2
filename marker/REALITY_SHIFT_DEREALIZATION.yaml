@@ -1,0 +1,19 @@
+kategorie: SEMANTIC
+marker:
+  category: Semantic
+  context_rule: []
+  description: Automatisch generierte Beschreibung für REALITY_SHIFT_DEREALIZATION
+  examples:
+  - 'name: "Reality Shift / Derealization"'
+  - 'Identifies subtle communicative signals of cognitive dissonance, repression,
+    or an impending relationship breakdown. This pattern doesn''t state a problem
+    directly but alludes to an emotional ''tipping '
+  - 'category: "Psychological Disassociation"'
+  id: S_REALITY_SHIFT_DEREALIZATION
+  level: 2
+  name: REALITY_SHIFT_DEREALIZATION
+  pattern: []
+  semantic_grabber_id: AUTO_SEM_20250714_8E3F
+  semantic_tags:
+  - reality-shift-derealization
+marker_name: REALITY_SHIFT_DEREALIZATION

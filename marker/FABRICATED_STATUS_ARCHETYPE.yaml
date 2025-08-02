@@ -1,0 +1,55 @@
+kategorie: SEMANTIC
+marker:
+  category: Semantic
+  context_rule: []
+  description: Die Annahme einer Persona oder eines Berufs, der Distanz, Reichtum,
+    Vertrauenswürdigkeit und eine plausible Notlage logisch erklärt (z.B. Soldat,
+    Arzt im Ausland, Ingenieur auf Ölplattform).
+  examples:
+  - Als UN-Arzt in einem Krisengebiet habe ich oft wochenlang keinen Kontakt zur Außenwelt.
+  - Ich bin auf einer geheimen Militärmission und kann dir meinen genauen Standort
+    nicht sagen.
+  - Als Ingenieur auf einer Ölplattform bin ich monatelang von der Zivilisation abgeschnitten.
+  - Ich bin ein erfolgreicher internationaler Geschäftsmann, aber mein Vermögen ist
+    gerade in einem komplizierten Deal gebunden.
+  - Ich bin der letzte Überlebende einer reichen Familie und muss ihr Erbe verwalten.
+  - Als verwitweter Vater zweier kleiner Kinder suche ich nur nach einer liebevollen
+    Mutter für sie.
+  - Ich arbeite für eine NGO in Afrika und kämpfe täglich gegen Armut und Krankheit.
+  - Ich bin ein berühmter Künstler, der sich aus der Öffentlichkeit zurückgezogen
+    hat.
+  - Als Kapitän eines Containerschiffs bin ich die meiste Zeit des Jahres auf See.
+  - Ich habe im Lotto gewonnen, aber ich kann das Geld erst in ein paar Monaten abholen.
+  - Ich bin ein Diamantenhändler und gerade auf einer gefährlichen Reise, um seltene
+    Steine zu beschaffen.
+  - Als Archäologe bin ich an einer abgelegenen Ausgrabungsstätte ohne Bankzugang.
+  - Ich bin ein Mitglied einer Adelsfamilie, aber ich habe mit meiner Familie gebrochen.
+  - Als investigativer Journalist decke ich eine gefährliche Story auf und muss unter
+    dem Radar bleiben.
+  - Ich bin ein professioneller Pokerspieler und gerade bei einem großen Turnier im
+    Ausland.
+  - Ich kümmere mich um die kranken Eltern auf einer abgelegenen Farm.
+  - Als Soldat im Ruhestand habe ich eine hohe Pension, aber der Zugriff darauf ist
+    bürokratisch kompliziert.
+  - Ich bin ein berühmter Modedesigner, der Inspiration in der Abgeschiedenheit sucht.
+  - Ich bin auf einer Yacht und segele um die Welt.
+  - Ich arbeite als Tierarzt in einem Reservat im Dschungel.
+  id: S_FABRICATED_STATUS_ARCHETYPE
+  level: 2
+  name: FABRICATED_STATUS_ARCHETYPE
+  pattern: []
+  semantic_grabber_id: AUTO_SEM_20250714_D327
+  semantic_tags:
+  - fabricated-status-archetype
+marker_name: FABRICATED_STATUS_ARCHETYPE
+psychologischer_hintergrund:
+- Aufbau einer überzeugenden Legende (Cover Story)
+- Nutzung von Autoritäts- und Mitleids-Archetypen
+- Schaffung einer logischen Erklärung für die Betrugsmechanik
+tags:
+- fraud
+- persona
+- archetyp
+- status
+- legende
+- coverstory

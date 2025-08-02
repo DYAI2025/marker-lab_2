@@ -1,0 +1,21 @@
+# AROUSAL_BEHAVIORALS_MARKER - Semantic Marker
+marker_name: AROUSAL_BEHAVIORALS_MARKER
+beschreibung: >
+  Lautmalerische oder kurze Ausrufe, die körperliche Erregung signalisieren,
+ohne explizit sexuell zu werden.
+beispiele:
+  - "Uff … das macht mich fertig!"
+  - "Wow, Gänsehaut pur!"
+  - "Boah, mein Herz rast."
+  - "*schluckt hörbar*"
+  - "Huh, heiß hier drin?"
+
+semantische_grabber_id: AUTO_SEM_20250723_92A8
+
+metadata:
+  created_at: 2025-07-23T00:25:45.800506
+  created_by: FRAUSAR_GUI_v2
+  version: 1.0
+  tags: [neu_erstellt, needs_review]
+
+kategorie: UNCATEGORIZED

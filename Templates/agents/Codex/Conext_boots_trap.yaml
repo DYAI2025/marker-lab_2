@@ -1,0 +1,24 @@
+agent: CODEX
+mode: repair
+description: >
+  Initialkontext zur Validierung und Reparatur von Markern nach Lean Deep 3.1.
+  Wird verwendet, wenn kein expliziter Task übergeben wurde.
+
+default_ruleset:
+  - LD3.1-R01  # Präfixprüfung
+  - LD3.1-R03  # Feldreihenfolge
+  - LD3.1-R06  # Pflichtfelder
+  - LD3.1-R09  # Frame-Pflicht bei SEM, CLU, MEMA
+
+field_order:
+  - id
+  - category
+  - description
+  - frame
+  - semantic_grab
+  - examples
+  - tags
+
+strict_validation: true
+language: de
+fallback_behavior: skip_marker_on_error

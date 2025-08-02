@@ -1,0 +1,19 @@
+kategorie: SEMANTIC
+marker:
+  category: Semantic
+  context_rule: []
+  description: Automatisch generierte Beschreibung für IDEALIZATION_DEVALUATION
+  examples:
+  - 'name: "Splitting (Idealization/Devaluation)"'
+  - '[cite_start]Identifies the dynamic of abrupt shifts between idealization and
+    devaluation, a core defense mechanism in emotionally unstable relationship patterns[cite:
+    15, 43]. A person or relationship'
+  - 'category: "Unstable Relationship Patterns"'
+  id: S_IDEALIZATION_DEVALUATION
+  level: 2
+  name: IDEALIZATION_DEVALUATION
+  pattern: []
+  semantic_grabber_id: AUTO_SEM_20250714_DFAA
+  semantic_tags:
+  - idealization-devaluation
+marker_name: IDEALIZATION_DEVALUATION
