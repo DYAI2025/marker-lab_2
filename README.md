@@ -13,10 +13,28 @@ Ziel ist es, Marker nach dem Lean Deep 3.1-Modell zu entwickeln, mit vollständi
 ## Mitarbeit
 
 Verwende die Issue-Templates, um neue Marker zu befüllen oder fertige Marker zu qualifizieren.  
-Copilot/Codex kann die Aufgaben automatisch übernehmen, wenn die Struktur klar ist.
+Die automatisierte Qualifizierung übernimmt die kontinuierliche Verarbeitung.
+
+## Automatisierte Arbeitsanweisung
+
+Das Repository implementiert kontinuierliche Marker-Qualifizierung:
+
+1. **Neue Marker hinzufügen**: Erstelle YAML-Dateien im `marker/` Verzeichnis
+2. **Automatische Prüfung**: Führe `python3 tools/qualify_marker_set.py` aus
+3. **Qualifizierte Marker**: Werden automatisch nach `final_marker_set/` kopiert
+
+### Continuous Processing
+```bash
+# Marker-Qualifizierung durchführen
+python3 tools/qualify_marker_set.py
+
+# Oder als ausführbare Datei
+./tools/qualify_marker_set.py
+```
+
+Das Tool prüft alle Marker automatisch und qualifiziert sie gemäß Lean Deep 3.1-Kriterien.
 
 ## Kriterien für "finale" Marker
 
 - Enthält ein vollständiges `frame`-Objekt mit den Feldern: `signal`, `concept`, `pragmatics`, `narrative`
 - Hat mindestens fünf `examples`
-# marker-lab_2
