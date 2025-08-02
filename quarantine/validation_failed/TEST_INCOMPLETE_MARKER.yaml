@@ -1,0 +1,10 @@
+id: INCOMPLETE_TEST
+frame:
+  signal: "Test signal"
+  concept: ""
+  pragmatics: "Some pragmatic info"
+  narrative: ""
+examples:
+  - "Only one example"
+  - "Second example"
+author: TestBot

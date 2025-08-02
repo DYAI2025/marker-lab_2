@@ -40,3 +40,12 @@ wheels/
 *.tmp
 *.bak
 *.log
+
+# Pipeline artifacts
+progress.db*
+.cache/
+marker_repair_progress.json
+marker_repair.log
+
+# Cache directory for content-addressable storage
+.cache/

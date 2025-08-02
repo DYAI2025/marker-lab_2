@@ -1,0 +1,6 @@
+PyYAML>=6.0.1
+ruamel.yaml>=0.18.5
+hypothesis>=6.82.0
+rich>=13.5.2
+tqdm>=4.66.1
+sqlite-utils>=3.34
