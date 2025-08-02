@@ -1,17 +1,17 @@
 id: TERMINATION
-level: '1'
-version: 0.1.0
-author: assistant
-created_at: '2025-07-22'
-status: draft
-lang: de
-name: ABBRUCHMARKER
-description: '|'
-category: general
+frame:
+  signal: "Plötzlicher Gesprächsabbruch oder abruptes Themenende"
+  concept: "Abbruchmarker als Distanzierungsstrategie"
+  pragmatics: "Verhindert weiteren Austausch und entzieht sich Diskussionen"
+  narrative: "Absender bricht Kommunikation ohne Erklärung ab"
 examples:
-- ''
-- '"… egal, bin weg."'
-- '"Muss los. Tschau."'
-- '"Keine Zeit, später vielleicht."'
-- '"*geht offline*"'
-- '"Stop. Anderes Thema."'
+  - "… egal, bin weg."
+  - "Muss los. Tschau."
+  - "Keine Zeit, später vielleicht."
+  - "*geht offline*"
+  - "Stop. Anderes Thema."
+  - "Brb, keine Lust mehr."
+tags:
+  - general
+author: "assistant"
+created: "2025-07-22"

@@ -1,21 +1,18 @@
-# ABBRUCHMARKER_MARKER - Semantic Marker
-marker_name: ABBRUCHMARKER_MARKER
-beschreibung: >
-  Signalisiert einen abrupten Gesprächsabbruch oder plötzlichen Themenwechsel,
-oft ohne Erklärung. Kann Distanzierung, Stress oder Vermeidungsstrategie sein.
-beispiele:
+id: TERMINATION
+frame:
+  signal: "Plötzlicher Gesprächsabbruch oder abruptes Themenende"
+  concept: "Abbruchmarker als Distanzierungsstrategie"
+  pragmatics: "Verhindert weiteren Austausch und entzieht sich Diskussionen"
+  narrative: "Absender bricht Kommunikation ohne Erklärung ab"
+examples:
   - "… egal, bin weg."
   - "Muss los. Tschau."
   - "Keine Zeit, später vielleicht."
   - "*geht offline*"
   - "Stop. Anderes Thema."
-
-semantische_grabber_id: AUTO_SEM_20250723_296C
-
-metadata:
-  created_at: 2025-07-23T00:22:44.485358
-  created_by: FRAUSAR_GUI_v2
-  version: 1.0
-  tags: [neu_erstellt, needs_review]
-
-kategorie: UNCATEGORIZED
+  - "Brb, keine Lust mehr."
+tags:
+  - neu_erstellt
+  - needs_review
+author: "FRAUSAR_GUI_v2"
+created: "2025-07-23"
