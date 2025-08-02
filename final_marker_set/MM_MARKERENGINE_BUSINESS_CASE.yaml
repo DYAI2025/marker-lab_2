@@ -1,0 +1,34 @@
+id: LD32_MARKERENGINE_BUSINESS_CASE
+author: senior_fullstack_lead
+description: '>'
+tam_estimates_usd: ''
+enterprise_compliance_risk: '6000000000   # 6 B'
+customer_care_quality: '3000000000   # 3 B'
+digital_mental_health: '1000000000   # 1 B'
+pricing_model: ''
+pay_go_cents_per_msg: 0.02-0.05
+enterprise_flat_per_year: ''
+seats: '1000'
+price_range_usd: 25k-50k
+revenue_projection: ''
+scenario: Top-20 global tech firms adopt
+seats_total: '1000000'
+arr_low_usd: '40000000      # 40 M'
+arr_high_usd: '80000000     # 80 M'
+five_year_total_usd: 150-250 M
+value_proposition: ''
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
+examples:
+- MARKERENGINE_BUSINESS_CASE example 1
+- MARKERENGINE_BUSINESS_CASE example 2
+- MARKERENGINE_BUSINESS_CASE example 3
+- MARKERENGINE_BUSINESS_CASE example 4
+- MARKERENGINE_BUSINESS_CASE example 5
+tags: []
+created: '2025-07-26'
+lean_deep_version: '3.2'
+last_repaired: '2025-08-02T21:33:29.966231'

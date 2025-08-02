@@ -1,0 +1,26 @@
+psychologischer_hintergrund:
+- Sprachliche Inkompetenz
+- Unzureichende technologische Hilfsmittel (Übersetzer)
+- Forensische Linguistik als Aufdeckungsmethode
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
+examples:
+- MARKER example 1
+- MARKER example 2
+- MARKER example 3
+- MARKER example 4
+- MARKER example 5
+tags:
+- fraud
+- sprache
+- übersetzung
+- forensik
+- inkonsistenz
+id: LD32_TRANSLATION_ARTIFACT
+author: unknown
+created: '2025-08-02'
+lean_deep_version: '3.2'
+last_repaired: '2025-08-02T21:33:29.833974'

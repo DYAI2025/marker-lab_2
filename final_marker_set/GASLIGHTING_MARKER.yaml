@@ -1,0 +1,38 @@
+semantic_grab:
+  description: Erkennt Muster, die darauf abzielen, die Wahrnehmung und Realität des
+    Gegenübers zu manipulieren oder zu untergraben.
+  patterns:
+  - example: Das hast du dir nur eingebildet. Ich habe nie gesagt, dass ich mitkomme.
+    pattern: r"(habe ich nie gesagt|das hast du dir eingebildet|das ist nicht passiert|du
+      erinnerst dich falsch)"
+    rule: DENY_REALITY
+  - example: Du bist nicht wütend, du bist nur müde. Du weißt doch gar nicht, was
+      du fühlst.
+    pattern: r"(du bist nicht wütend|du bist nur müde|du übertreibst|du bist zu empfindlich)"
+    rule: MINIMIZE_EMOTION
+  - example: Das Problem liegt bei dir. Du machst aus Mücken Elefanten.
+    pattern: r"(das Problem liegt bei dir|du machst aus Mücken Elefanten|du bist paranoid|du
+      verdrehst die Realität)"
+    rule: SHIFT_BLAME
+  - example: Du erinnerst dich falsch
+    pattern: r"(du hast das falsch verstanden|du erinnerst dich falsch|du bist wirklich
+      vergesslich|du bist nicht objektiv)"
+    rule: QUESTION_MEMORY
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
+examples:
+- AUTO_GENERATED_EXAMPLE_1
+- AUTO_GENERATED_EXAMPLE_2
+- AUTO_GENERATED_EXAMPLE_3
+- AUTO_GENERATED_EXAMPLE_4
+- AUTO_GENERATED_EXAMPLE_5
+tags:
+- needs_review
+id: LD32_GASLIGHTING_MARKER
+author: unknown
+created: '2025-08-02'
+lean_deep_version: '3.2'
+last_repaired: '2025-08-02T21:33:30.056219'

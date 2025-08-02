@@ -1,0 +1,18 @@
+semantische_grabber_id: AUTO_SEM_20250723_7E89
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
+examples:
+- Nach allem, was ich für dich getan habe…
+- Schon okay, ich komm alleine klar.
+- Ich dachte, du wärst für mich da.
+- Ich hätte das nie von dir erwartet.
+- Ist gut, ich enttäusche mich halt selber.
+tags: []
+id: LD32_GUILT_TRIPPING_MARKER
+author: unknown
+created: '2025-08-02'
+lean_deep_version: '3.2'
+last_repaired: '2025-08-02T21:33:29.882628'

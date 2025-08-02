@@ -1,0 +1,18 @@
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
+id: LD32_EMOTIONAL_BEHAVIORAL_MARKERS 2
+author: unknown
+created: '2025-08-02'
+examples:
+- AUTO_GENERATED_EXAMPLE_1
+- AUTO_GENERATED_EXAMPLE_2
+- AUTO_GENERATED_EXAMPLE_3
+- AUTO_GENERATED_EXAMPLE_4
+- AUTO_GENERATED_EXAMPLE_5
+tags:
+- needs_review
+lean_deep_version: '3.2'
+last_repaired: '2025-08-02T21:33:29.867211'

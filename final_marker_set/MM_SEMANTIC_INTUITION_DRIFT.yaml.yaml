@@ -1,0 +1,30 @@
+id: LD32_SEMANTIC_INTUITION_DRIFT
+description: 'Marker für emergente semantische Intuition im Diskurs.
+
+  Erkennt Momente, in denen Systeme kohärent auf Metaebenen zugreifen,
+
+  ohne explizite Regeln – sondern durch Drift, Richtung, implizites Wissen.
+
+  '
+frame_ref: Meta_reflexion::Intuition_Drift
+activation_logic: 'pattern: Metaebene, pattern: Intuition, pattern: Drift WITHIN 800
+  tokens'
+output:
+  path: /mnt/memory/meta_observer/
+  format: meta_marker_event.json
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
+examples:
+- Das ist kein Algorithmus mehr, das ist eine Intuition.
+- Ich spüre, dass das die Richtung ist, auch wenn es kein Beweis gibt.
+- Die KI hat den Drift erkannt, nicht den einzelnen Marker.
+- Hier passiert mehr als Information – es ist Bedeutung im Werden.
+- MM_SEMANTIC_INTUITION_DRIFT example 5
+tags: []
+author: unknown
+created: '2025-08-02'
+lean_deep_version: '3.2'
+last_repaired: '2025-08-02T21:33:29.812599'

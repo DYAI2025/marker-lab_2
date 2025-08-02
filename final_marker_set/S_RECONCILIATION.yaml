@@ -1,0 +1,29 @@
+id: LD32_RECONCILIATION
+author: auto_gpt
+created: '2025-07-25T21:17:00Z'
+description: Detects reconciliation language and peace offerings in dialogue.
+scoring:
+  weight: 1.5
+semantic_rules:
+- Detects attempts to restore harmony after conflict.
+composed_of:
+- A_PEACE_OFFER
+- A_FORGIVENESS
+activation_logic: A_PEACE_OFFER OR A_FORGIVENESS
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
+examples:
+- Lass uns das klären und wieder Freunde sein.
+- Es tut mir leid, können wir uns wieder vertragen?
+- Ich möchte Frieden, lass uns das vergessen.
+- Ich will nicht mehr streiten, lass uns versöhnen.
+- Können wir bitte einen Neuanfang machen?
+tags:
+- semantic
+- reconciliation
+- forgiveness
+lean_deep_version: '3.2'
+last_repaired: '2025-08-02T21:33:30.229049'

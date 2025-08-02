@@ -1,0 +1,29 @@
+semantische_grabber_id: AUTO_SEM_20250720_C103
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
+examples:
+- AUTO_GENERATED_EXAMPLE_1
+- AUTO_GENERATED_EXAMPLE_2
+- AUTO_GENERATED_EXAMPLE_3
+- AUTO_GENERATED_EXAMPLE_4
+- AUTO_GENERATED_EXAMPLE_5
+- Meld dich, wenn du wach bist ☕️
+- Gute Nacht – schreib morgen.
+- Memes des Tages schon gesehen?
+- Voice-Note Marathon again?
+- Noch wach? 🌙
+- Ping mich, wenn du Pause hast.
+- Schon zwei Monate Daily-Streak!
+- Kein Tag ohne dein Update.
+- Jeden Abend ein Recap, crazy.
+- Hab extra Datenvolumen für dich geholt.
+tags:
+- needs_review
+id: LD32_SUSTAINED_CONTACT_MARKER
+author: unknown
+created: '2025-08-02'
+lean_deep_version: '3.2'
+last_repaired: '2025-08-02T21:33:30.051206'

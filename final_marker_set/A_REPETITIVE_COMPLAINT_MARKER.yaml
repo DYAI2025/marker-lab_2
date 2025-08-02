@@ -1,0 +1,18 @@
+semantische_grabber_id: AUTO_SEM_20250723_F191
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
+examples:
+- Es ist immer wieder das gleiche mit dir und deiner Unpünktlichkeit.
+- Schon wieder dieses Thema – ich dachte, wir hätten es längst geklärt.
+- Nicht schon wieder musst du mich daran erinnern, ich weiß es doch.
+- Jedes Mal dasselbe Drama, wenn du zu spät bist.
+- Wir hatten das doch schon besprochen, warum redest du immer noch davon?
+tags: []
+id: LD32_REPETITIVE_COMPLAINT_MARKER
+author: unknown
+created: '2025-08-02'
+lean_deep_version: '3.2'
+last_repaired: '2025-08-02T21:33:29.783202'

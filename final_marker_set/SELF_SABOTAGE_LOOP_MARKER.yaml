@@ -1,0 +1,39 @@
+psychologischer_hintergrund:
+- Theorie: Schematherapie (Schema "Versagen" oder "Unzulänglichkeit")
+- Theorie: Bindungstheorie (desorganisierter oder vermeidender Stil)
+- Abwehrmechanismus: Agieren, Regression
+semantic_grab:
+  description: Erkennt eine Kombination aus negativen Selbstbewertungen, Rückzugsankündigungen
+    und der Ablehnung von Chancen oder Hilfe.
+  patterns:
+  - example: Das Date wäre toll, aber ich glaube, ich bin nicht interessant genug
+      und sage lieber ab.
+    pattern: (aber ich glaube|ich habe Angst) +(ich schaffe das nicht|sagen wir es
+      lieber ab)
+    rule: PREEMPTIVE_SURRENDER
+  - example: Bevor ich dich nur enttäusche, fangen wir lieber gar nichts Ernstes an.
+    pattern: (bevor ich alles kaputt mache|damit ich niemanden enttäusche) +(lasse
+      ich es lieber gleich|mache ich es erst gar nicht)
+    rule: FOCUS_ON_FAILURE_POTENTIAL
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
+examples:
+- AUTO_GENERATED_EXAMPLE_1
+- AUTO_GENERATED_EXAMPLE_2
+- AUTO_GENERATED_EXAMPLE_3
+- AUTO_GENERATED_EXAMPLE_4
+- AUTO_GENERATED_EXAMPLE_5
+tags:
+- selbstbild
+- angst
+- vermeidung
+- prokrastination
+- kontrolle
+id: LD32_SELF_SABOTAGE_LOOP_MARKER
+author: unknown
+created: '2025-08-02'
+lean_deep_version: '3.2'
+last_repaired: '2025-08-02T21:33:29.736202'

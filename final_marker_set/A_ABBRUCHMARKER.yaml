@@ -1,0 +1,18 @@
+id: LD32_TERMINATION
+author: assistant
+description: '|'
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
+examples:
+- '"… egal, bin weg."'
+- '"Muss los. Tschau."'
+- '"Keine Zeit, später vielleicht."'
+- '"*geht offline*"'
+- '"Stop. Anderes Thema."'
+tags: []
+created: '2025-07-22'
+lean_deep_version: '3.2'
+last_repaired: '2025-08-02T21:33:30.013591'

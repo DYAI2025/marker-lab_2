@@ -1,0 +1,25 @@
+id: LD32_MICRO_TEASE
+author: assistant
+description: '|'
+'- id': NEGLECT_PATTERN
+hinweise auf vernachlässigung: fehlende Antwort, einseitige Kommunikation.
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
+examples:
+- '"Na, traust du dich?"'
+- '"Kannst du nicht besser? 😜"'
+- '"Wirst du jetzt rot?"'
+- '"Nur ein bisschen ärgern 😉"'
+- '"Du machst es mir zu einfach."'
+- '"*gelesen - keine Antwort*"'
+- '"Sorry, hab deine letzten drei Nachrichten übersehen."'
+- '"War beschäftigt, melde mich irgendwann."'
+- '"Ups, ganz vergessen zu schreiben."'
+- '"Ach, das ist untergegangen."'
+tags: []
+created: '2025-07-22'
+lean_deep_version: '3.2'
+last_repaired: '2025-08-02T21:33:29.703073'

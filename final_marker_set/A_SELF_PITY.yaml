@@ -1,0 +1,29 @@
+id: LD32_SELF_PITY
+author: auto_gpt
+created: '2025-07-25T21:17:00Z'
+description: Detects expressions of self-pity and feeling like a victim.
+scoring:
+  weight: 1.5
+semantic_rules:
+- Detects self-blame and self-victimization patterns in emotional statements.
+composed_of:
+- A_VICTIM_LANGUAGE
+- A_LONELINESS
+activation_logic: A_VICTIM_LANGUAGE OR A_LONELINESS
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
+examples:
+- Immer passiert mir sowas, ich habe einfach kein Glück.
+- Niemand versteht mich, ich bin immer allein.
+- Ich kann nichts dafür, die Welt ist gegen mich.
+- Ich armes Opfer, alle sind gemein zu mir.
+- Ich weiß nicht, warum ich immer alles abbekomme.
+tags:
+- semantic
+- self_pity
+- emotion
+lean_deep_version: '3.2'
+last_repaired: '2025-08-02T21:33:30.246372'

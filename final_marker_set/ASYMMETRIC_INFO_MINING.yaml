@@ -1,0 +1,26 @@
+psychologischer_hintergrund:
+- Informationsbeschaffung für kriminelle Zwecke
+- Social Engineering-Techniken
+- Vortäuschung von Intimität durch Abfragen persönlicher Details
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
+examples:
+- MARKER example 1
+- MARKER example 2
+- MARKER example 3
+- MARKER example 4
+- MARKER example 5
+tags:
+- fraud
+- social engineering
+- datenmining
+- informationsasymmetrie
+- phishing
+id: LD32_ASYMMETRIC_INFO_MINING
+author: unknown
+created: '2025-08-02'
+lean_deep_version: '3.2'
+last_repaired: '2025-08-02T21:33:29.785149'

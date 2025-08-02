@@ -1,0 +1,18 @@
+semantische_grabber_id: AUTO_SEM_20250723_0B15
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
+examples:
+- Ganz ehrlich, wir drehen uns im Kreis und finden einfach keine Lösung.
+- Wir kommen hier einfach nicht weiter mit dieser Entscheidung.
+- Das führt zu nichts, wenn wir so weiter diskutieren.
+- Es gibt keine Lösung für dieses Problem, oder?
+- Wir stecken fest und wissen nicht, wie es weitergehen soll.
+tags: []
+id: LD32_UNRESOLVED_ISSUE_MARKER
+author: unknown
+created: '2025-08-02'
+lean_deep_version: '3.2'
+last_repaired: '2025-08-02T21:33:29.876428'

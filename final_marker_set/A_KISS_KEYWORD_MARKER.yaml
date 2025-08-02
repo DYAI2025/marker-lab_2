@@ -1,4 +1,4 @@
-id: A_KISS_KEYWORD
+id: LD32_KISS_KEYWORD
 frame:
   signal: Keywords like 'kuss', 'küssen', 'geküsst', 'kissing'
   concept: References to kissing
@@ -15,3 +15,5 @@ examples:
 tags:
 - thema
 - intimität
+lean_deep_version: '3.2'
+last_repaired: '2025-08-02T21:33:29.835783'

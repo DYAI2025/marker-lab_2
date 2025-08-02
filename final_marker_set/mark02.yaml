@@ -1,0 +1,166 @@
+markers:
+- id: A_IM_HERE_FOR_YOU
+  level: 1
+  version: 1.0.0
+  author: auto_gpt
+  created_at: '2025-07-18'
+  status: draft
+  lang: de
+  name: IM_HERE_FOR_YOU
+  description: Signalisiert explizit Hilfsbereitschaft und Präsenz für den Chatpartner.
+  category: ATOMIC
+  atomic_pattern:
+  - Ich bin immer für dich da
+  - Bin hier, wenn du reden willst
+  - Meld dich, falls du Hilfe brauchst
+  - Ich hör dir zu
+  - Schreib mir einfach
+  tags:
+  - support
+  - präsenz
+  examples:
+  - Ich bin immer für dich da, wenn du reden willst.
+  - Meld dich, falls du Hilfe brauchst.
+  - Ich hör dir zu, egal, worum es geht.
+  - Wenn du Unterstützung brauchst, schreib mir einfach.
+  - Du kannst dich immer melden.
+- id: A_LET_ME_KNOW_IF_YOU_NEED
+  level: 1
+  version: 1.0.0
+  author: auto_gpt
+  created_at: '2025-07-18'
+  status: draft
+  lang: de
+  name: LET_ME_KNOW_IF_YOU_NEED
+  description: Höflich zurückhaltende Angebote zur Unterstützung, die das Aktivwerden
+    dem Gegenüber überlassen.
+  category: ATOMIC
+  atomic_pattern:
+  - Sag Bescheid, wenn ich helfen kann
+  - Meld dich einfach, falls du etwas brauchst
+  - Wenn du willst, bin ich da
+  - Lass es mich wissen, wenn was ist
+  - Nur wenn du möchtest
+  tags:
+  - support
+  - zurückhaltung
+  examples:
+  - Sag Bescheid, wenn ich helfen kann.
+  - Meld dich einfach, falls du etwas brauchst.
+  - Wenn du willst, bin ich da.
+  - Lass es mich wissen, wenn was ist.
+  - Nur wenn du möchtest, ich dräng mich nicht auf.
+- id: S_SUPPORT_PHRASES
+  level: 2
+  version: 1.0.0
+  author: auto_gpt
+  created_at: '2025-07-18'
+  status: draft
+  lang: de
+  name: SUPPORT_PHRASES
+  description: 'Semantische Gruppe von Ausdrücken, die explizite Hilfs- oder Unterstützungsangebote
+    signalisieren.
+
+    '
+  category: SEMANTIC
+  composed_of:
+  - type: atomic
+    marker_ids:
+    - A_IM_HERE_FOR_YOU
+    - A_LET_ME_KNOW_IF_YOU_NEED
+  rules:
+  - type: frequency
+    threshold: 1
+    scope: message
+    value: 1
+  tags:
+  - support
+  - help
+  examples:
+  - Ich bin immer für dich da, wenn du reden willst.
+  - Meld dich, falls du Hilfe brauchst.
+  - Sag Bescheid, wenn ich irgendwas erledigen kann.
+  - Ich hör dir zu, egal, worum es geht.
+  - Wenn du Unterstützung brauchst, schreib mir einfach.
+- id: C_EMOTIONAL_SUPPORT
+  level: 3
+  version: 1.0.0
+  author: auto_gpt
+  created_at: '2025-07-18'
+  status: draft
+  lang: de
+  name: EMOTIONAL_SUPPORT
+  description: 'Cluster-Marker für anhaltende und wiederholte explizite Unterstützungsangebote
+    (emotionale Basis).
+
+    '
+  category: CLUSTER
+  composed_of:
+  - type: semantic
+    marker_ids:
+    - S_SUPPORT_PHRASES
+  activation_logic: window
+  scoring:
+    weight: 1.5
+    priority: high
+  tags:
+  - support
+  - emotional
+  examples:
+  - 'Über Wochen wiederholt: „Meld dich, falls du Hilfe brauchst.“'
+  - 'Jede dritte Nachricht: ''Ich bin immer für dich da.'''
+  - Ständige Wiederholung von Unterstützungsangeboten im Chat.
+  - Mehrfache Hinweise auf 'Sag Bescheid, wenn ich helfen kann.'
+  - 'Fast tägliches Signal: ''Wenn du Unterstützung brauchst, schreib mir.'''
+- id: MM_RELATIONSHIP_STRENGTH
+  level: 4
+  version: 1.0.0
+  author: auto_gpt
+  created_at: '2025-07-18'
+  status: draft
+  lang: de
+  name: RELATIONSHIP_STRENGTH
+  description: 'Meta-Marker für besonders stabile, tragende Beziehungen, sichtbar
+    an Häufung von Unterstützungs- und Loyalitätssignalen.
+
+    '
+  category: META
+  composed_of:
+  - type: cluster
+    marker_ids:
+    - C_EMOTIONAL_SUPPORT
+    - C_FRIENDSHIP_SIGNALING
+  trigger_threshold: 2
+  scoring:
+    weight: 2.0
+    priority: highest
+  tags:
+  - beziehung
+  - loyalität
+  examples:
+  - Mehrere Wochen starke, beständige Fürsorge und Unterstützung.
+  - Viele Hinweise auf Loyalität, Freundschaft, Hilfe – kaum Brüche.
+  - Stabiler Beziehungsfokus in fast allen Chatphasen.
+  - Wenig Fluktuation, hohe Signalrate von 'bin immer für dich da'.
+  - 'Sichtbarer Meta-Effekt: Der Chat bleibt stützend, selbst in Krisen.'
+  - 'A: ''Ich bin immer für dich da.'' B: ''Danke, das bedeutet mir viel.'' A: ''Meld
+    dich, wenn du reden willst.'' B: ''Mach ich, danke!'''
+  - 'A: ''Ich bin hier, wenn du reden willst.'' B: ''Das ist so wichtig für mich.''
+    A: ''Lass es mich wissen, wenn du was brauchst.'' B: ''Werde ich machen, danke!'''
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
+examples:
+- MARKER example 1
+- MARKER example 2
+- MARKER example 3
+- MARKER example 4
+- MARKER example 5
+tags: []
+id: LD32_mark02
+author: unknown
+created: '2025-08-02'
+lean_deep_version: '3.2'
+last_repaired: '2025-08-02T21:33:29.941524'

@@ -1,0 +1,18 @@
+semantische_grabber_id: SGR_CIRCULAR_ARGUMENT_01
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
+examples:
+- Nicht schon wieder dieses Thema! Wir kommen da einfach nicht weiter.
+- Immer wieder das Gleiche, und es bringt uns keinen Schritt weiter.
+- Schon wieder dieselben Vorwürfe, und wir finden keine Lösung.
+- Jedes Mal diese Beschwerde, und wir drehen uns nur im Kreis.
+- Wir hatten das doch schon, und dennoch kommen wir nicht voran.
+tags: []
+id: LD32_CIRCULAR_ARGUMENT_MARKER
+author: unknown
+created: '2025-08-02'
+lean_deep_version: '3.2'
+last_repaired: '2025-08-02T21:33:30.226575'

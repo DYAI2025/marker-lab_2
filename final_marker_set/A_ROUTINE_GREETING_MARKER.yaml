@@ -1,0 +1,25 @@
+semantische_grabber_id: AUTO_SEM_20250721_1972
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
+examples:
+- AUTO_GENERATED_EXAMPLE_1
+- AUTO_GENERATED_EXAMPLE_2
+- AUTO_GENERATED_EXAMPLE_3
+- AUTO_GENERATED_EXAMPLE_4
+- AUTO_GENERATED_EXAMPLE_5
+- Good morning NAME.
+- Hey, hast du  gut geschlafen?
+- Ich wünsche dir  einen schönen guten Morgen
+- gut geschlafen?
+- Wie war deine Nacht?
+- Hast du schöne Träume gehabt?
+tags:
+- needs_review
+id: LD32_ROUTINE_GREETING_MARKER
+author: unknown
+created: '2025-08-02'
+lean_deep_version: '3.2'
+last_repaired: '2025-08-02T21:33:29.906961'
