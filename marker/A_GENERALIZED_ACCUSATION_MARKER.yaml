@@ -1,8 +1,26 @@
-marker_name: A_GENERALIZED_ACCUSATION_MARKER
-beschreibung: 'Absolute Vorwürfe mit ''immer'', ''nie'', ''ständig''.
-
-  '
-beispiele:
+semantische_grabber_id: SGR_GENERALIZED_ACCUSATION_01
+metadata:
+  created_at: 2025-07-22 00:17:42.002133
+  created_by: FRAUSAR_GUI_v2
+  version: 1.0
+  tags:
+  - neu_erstellt
+  - needs_review
+  last_repaired: '2025-07-22T02:31:24.204025'
+  repair_version: '1.0'
+category: UNCATEGORIZED
+kategorie: UNCATEGORIZED
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
+examples:
+- AUTO_GENERATED_EXAMPLE_1
+- AUTO_GENERATED_EXAMPLE_2
+- AUTO_GENERATED_EXAMPLE_3
+- AUTO_GENERATED_EXAMPLE_4
+- AUTO_GENERATED_EXAMPLE_5
 - Immer machst du so ein Drama.
 - Nie hörst du richtig zu.
 - Ständig bist du am Handy.
@@ -23,24 +41,8 @@ beispiele:
 - Ständig unterbrichst du mich.
 - Typisch, du übertreibst wieder maßlos.
 - Jedes Mal zerstörst du die Stimmung.
-semantische_grabber_id: SGR_GENERALIZED_ACCUSATION_01
-metadata:
-  created_at: 2025-07-22 00:17:42.002133
-  created_by: FRAUSAR_GUI_v2
-  version: 1.0
-  tags:
-  - neu_erstellt
-  - needs_review
-  last_repaired: '2025-07-22T02:31:24.204025'
-  repair_version: '1.0'
-category: UNCATEGORIZED
 tags:
 - needs_review
-examples:
-- AUTO_GENERATED_EXAMPLE_1
-- AUTO_GENERATED_EXAMPLE_2
-- AUTO_GENERATED_EXAMPLE_3
-- AUTO_GENERATED_EXAMPLE_4
-- AUTO_GENERATED_EXAMPLE_5
-
-kategorie: UNCATEGORIZED
+id: A_GENERALIZED_ACCUSATION_MARKER
+author: unknown
+created: '2025-08-02'

@@ -1,22 +1,16 @@
 kategorie: SEMANTIC
-marker:
-  category: Semantic
-  context_rule: []
-  description: Automatisch generierte Beschreibung für roles_rotation_rules_semantic_grep
-  examples:
-  - Zyklischer, oft unbewusster Rollenwechsel zwischen Verfolger (Persecutor), Retter
-    (Rescuer) und Opfer (Victim) innerhalb kurzer Zeit. Das Muster ist ein zentrales
-    Element des Dramadreiecks (Karpman) u
-  - 'Person B: "Es tut mir leid, ich kriege nichts auf die Reihe." (Opfer)'
-  - 'Person A: "Komm, ich helfe dir, das zu organisieren." (Retter)'
-  - 'Person B: "Ich brauche deine Hilfe nicht! Du willst mich nur kontrollieren!"
-    (Verfolger)'
-  - 'Person A: "Nichts, was ich tue, ist je gut genug für dich." (Opfer)'
-  id: S_ROLES_ROTATION_RULES_SEMANTIC_GREP
-  level: 2
-  name: roles_rotation_rules_semantic_grep
-  pattern: []
-  semantic_grabber_id: AUTO_SEM_20250714_4401
-  semantic_tags:
-  - roles-rotation-rules-semantic-grep
-marker_name: roles_rotation_rules_semantic_grep
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
+examples:
+- MARKER example 1
+- MARKER example 2
+- MARKER example 3
+- MARKER example 4
+- MARKER example 5
+tags: []
+id: roles_rotation_rules_semantic_grep
+author: unknown
+created: '2025-08-02'

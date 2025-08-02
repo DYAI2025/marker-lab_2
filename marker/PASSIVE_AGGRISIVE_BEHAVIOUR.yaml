@@ -1,19 +1,16 @@
 kategorie: SEMANTIC
-marker:
-  category: Semantic
-  context_rule: []
-  description: Automatisch generierte Beschreibung für PASSIVE_AGGRISIVE_BEHAVIOUR
-  examples:
-  - 'name: "Passive-Aggressive Behavior"'
-  - A pattern of indirectly expressing negative feelings or aggression instead of
-    openly addressing them. [cite_start]This is often achieved through subtle insults,
-    sullen behavior, stubbornness, or a del
-  - 'category: "Covert Manipulation"'
-  id: S_PASSIVE_AGGRISIVE_BEHAVIOUR
-  level: 2
-  name: PASSIVE_AGGRISIVE_BEHAVIOUR
-  pattern: []
-  semantic_grabber_id: AUTO_SEM_20250714_AC52
-  semantic_tags:
-  - passive-aggrisive-behaviour
-marker_name: PASSIVE_AGGRISIVE_BEHAVIOUR
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
+examples:
+- MARKER example 1
+- MARKER example 2
+- MARKER example 3
+- MARKER example 4
+- MARKER example 5
+tags: []
+id: PASSIVE_AGGRISIVE_BEHAVIOUR
+author: unknown
+created: '2025-08-02'

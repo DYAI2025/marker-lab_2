@@ -1,17 +1,17 @@
 kategorie: ATOMIC
-marker:
-  category: Atomic
-  context_rule: []
-  description: Automatisch generierte Beschreibung für SPIRAL_DYNAMICS_LEVELS
-  examples:
-  - Automatisch generierte Beschreibung für SPIRAL_DYNAMICS_LEVELS
-  id: M_SPIRAL_DYNAMICS_LEVELS
-  level: 1
-  name: SPIRAL_DYNAMICS_LEVELS
-  pattern: []
-  semantic_grabber_id: AUTO_SEM_20250714_DD11
-  semantic_tags:
-  - spiral-dynamics-levels
-marker_name: SPIRAL_DYNAMICS_LEVELS
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
+examples:
+- MARKER example 1
+- MARKER example 2
+- MARKER example 3
+- MARKER example 4
+- MARKER example 5
 tags:
 - needs_review
+id: VALUE_DYNAMICS_LEVELS
+author: unknown
+created: '2025-08-02'

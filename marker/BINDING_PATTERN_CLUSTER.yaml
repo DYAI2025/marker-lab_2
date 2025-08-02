@@ -1,4 +1,3 @@
-marker_name: BINDING_PATTERN_CLUSTER
 marker_set:
   beschreibung: Marker zur Erkennung von Bindungsstrategien in zwischenmenschlichen
     Beziehungen – z. B. vermeidend, klammernd oder ambivalent.
@@ -36,16 +35,23 @@ marker_set:
     name: ambivalentes Bindungsmuster
   name: Bindungsmuster
 category: UNCATEGORIZED
-tags:
-- needs_review
+metadata:
+  last_repaired: '2025-07-21T21:32:11.844697'
+  repair_version: '1.0'
+kategorie: UNCATEGORIZED
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
 examples:
 - AUTO_GENERATED_EXAMPLE_1
 - AUTO_GENERATED_EXAMPLE_2
 - AUTO_GENERATED_EXAMPLE_3
 - AUTO_GENERATED_EXAMPLE_4
 - AUTO_GENERATED_EXAMPLE_5
-metadata:
-  last_repaired: '2025-07-21T21:32:11.844697'
-  repair_version: '1.0'
-
-kategorie: UNCATEGORIZED
+tags:
+- needs_review
+id: BINDING_PATTERN_CLUSTER
+author: unknown
+created: '2025-08-02'

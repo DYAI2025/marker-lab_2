@@ -1,4 +1,3 @@
-marker_name: RELATIONSHIP_MARKER_CLUSTER
 marker_cluster:
   beschreibung: 'Enthält Marker rund um emotionale Dynamiken in Beziehungen: Manipulation,
     Rückzug, Sarkasmus.'
@@ -11,16 +10,23 @@ marker_cluster:
     quelle: marker_sarkasmus.yaml
   name: Beziehungsdynamik
 category: UNCATEGORIZED
-tags:
-- needs_review
+metadata:
+  last_repaired: '2025-07-21T21:32:11.830640'
+  repair_version: '1.0'
+kategorie: UNCATEGORIZED
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
 examples:
 - AUTO_GENERATED_EXAMPLE_1
 - AUTO_GENERATED_EXAMPLE_2
 - AUTO_GENERATED_EXAMPLE_3
 - AUTO_GENERATED_EXAMPLE_4
 - AUTO_GENERATED_EXAMPLE_5
-metadata:
-  last_repaired: '2025-07-21T21:32:11.830640'
-  repair_version: '1.0'
-
-kategorie: UNCATEGORIZED
+tags:
+- needs_review
+id: RELATIONSHIP_MARKER_CLUSTER
+author: unknown
+created: '2025-08-02'

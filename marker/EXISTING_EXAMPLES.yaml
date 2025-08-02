@@ -1,17 +1,17 @@
 kategorie: ATOMIC
-marker:
-  category: Atomic
-  context_rule: []
-  description: Automatisch generierte Beschreibung für EXISTING_EXAMPLES
-  examples:
-  - Automatisch generierte Beschreibung für EXISTING_EXAMPLES
-  id: M_EXISTING_EXAMPLES
-  level: 1
-  name: EXISTING_EXAMPLES
-  pattern: []
-  semantic_grabber_id: AUTO_SEM_20250714_A763
-  semantic_tags:
-  - existing-examples
-marker_name: EXISTING_EXAMPLES
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
+examples:
+- MARKER example 1
+- MARKER example 2
+- MARKER example 3
+- MARKER example 4
+- MARKER example 5
 tags:
 - needs_review
+id: EXISTING_EXAMPLES
+author: unknown
+created: '2025-08-02'

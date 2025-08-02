@@ -1,0 +1,71 @@
+# ────────────────────────────────────────────────────────────────
+# ARBEITSAUFTRAG
+# Ziel-Agent:  ⚙️  CODEX / GitHub Copilot Agent
+# Zweck:       complete_markers.py und qualify_marker_set.py
+#              so lange reparieren + erweitern, bis **alle**
+#              Marker im Verzeichnis marker/ wahlweise
+#              • fehlerfrei normalisiert oder
+#              • mit eindeutiger Fehlerbeschreibung ausgesondert
+#              werden können.
+# ────────────────────────────────────────────────────────────────
+
+target_agent: CODEX          # oder COPILOT – je nach Runner
+task_id: TSK-2025-MARKER-FIX
+priority: HIGH
+strict_validation: true      # Aufgabe gilt erst als „Done“, wenn Erfolgskriterien erfüllt sind
+
+description: >
+  Repariere und erweitere die beiden Tools *tools/complete_markers.py*
+  und *tools/qualify_marker_set.py*, bis folgendes garantiert ist:
+
+  1. **100 % YAML-Parsability**  
+     Kein einziger *.yaml* in marker/ darf einen ungefangenen
+     Parser-Error auslösen.  
+     - Bei Syntaxfehlern: automatisches Vor-Repair (Tabs→Spaces,
+     fehlende Doppelpunkte in Kopfzeilen, Entfernen «---»).
+
+  2. **Lean Deep 3.11-Konformität**  
+     Jeder Marker bekommt:
+       • frame-Block mit signal / concept / pragmatics / narrative  
+       • ≥ 5 distinct examples (werden notfalls generisch aufgefüllt)  
+       • deduplizierte tags  
+       • id, author, created (minimal-Meta)
+
+  3. **Lückenlose Ergebniserfassung**  
+     • Erfolgreich normalisierte Marker → *final_marker_set/*  
+     • Unreparierbare Dateien     → *quarantine/* **mit** .errors.json  
+     • Zusammenfassung pro Lauf  → *tools/normalize_report.tsv*
+
+  4. **Variablen-Konfiguration**  
+     Alle Pfade, Mindestwerte usw. müssen oben im Script als
+     `CONFIG`-Sektion definierbar sein (siehe Variablen-Block).
+
+variables:
+  MARKER_DIR:   marker                 # kann vom Nutzer geändert werden
+  OUTPUT_DIR:   final_marker_set
+  QUARANTINE:   quarantine
+  SUMMARY_LOG:  tools/normalize_report.tsv
+  MIN_EXAMPLES: 5
+
+required_rules:
+  - LD3.1-R01   # Präfix-Konvention
+  - LD3.1-R02   # Doppelte examples
+  - LD3.1-R03   # Feldreihenfolge
+  - LD3.1-R06   # Pflichtfelder
+  - LD3.1-R09   # frame-Pflicht
+  # ⬆︎ Agent muss Regeln aus dynamic_marker_rules.yaml einbinden
+
+acceptance_criteria:
+  - "python tools/complete_markers.py && python tools/qualify_marker_set.py \
+     → Ausgabe enthält 'Successfully qualified: <n>' \
+     und '<n>' entspricht Gesamtzahl der Dateien in marker/"
+  - Alle Fehlerfälle besitzen eine *.errors.json*-Datei mit stack + Fix-Hinweis
+  - `grep -c $'\tYAML_ERROR' tools/normalize_report.tsv` liefert **0**
+
+notes: >
+  •  Das bestehende Script *tools/complete_markers.py* ist bereits
+     im Canvas „Complete Markers“ abgelegt. Änderungen dort vornehmen!  
+  •  Achte auf Kompatibilität mit Python ≥ 3.9 (kein externes Package
+     ausser PyYAML).  
+  •  Test / dry-run-Modus wäre wünschenswert, ist aber kein Muss
+     für die Abnahme.

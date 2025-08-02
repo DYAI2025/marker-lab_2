@@ -1,19 +1,16 @@
 kategorie: SEMANTIC
-marker:
-  category: Semantic
-  context_rule: []
-  description: Automatisch generierte Beschreibung für pyproject_toml
-  examples:
-  - requires = ["setuptools>=61.0", "wheel"]
-  - build-backend = "setuptools.build_meta"
-  - name = "marker-analysis-engine"
-  - version = "0.1.0"
-  - description = "Hochmodernes Analyse-Tool für Beziehungschroniken und Fraud-Erkennung"
-  id: S_PYPROJECT_TOML
-  level: 2
-  name: pyproject_toml
-  pattern: []
-  semantic_grabber_id: AUTO_SEM_20250714_D76E
-  semantic_tags:
-  - pyproject-toml
-marker_name: pyproject_toml
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
+examples:
+- MARKER example 1
+- MARKER example 2
+- MARKER example 3
+- MARKER example 4
+- MARKER example 5
+tags: []
+id: pyproject_toml
+author: unknown
+created: '2025-08-02'

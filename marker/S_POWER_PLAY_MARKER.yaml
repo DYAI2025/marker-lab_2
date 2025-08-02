@@ -1,8 +1,26 @@
-marker_name: S_POWER_PLAY_MARKER
-beschreibung: 'Einseitige Entscheidung + gleichzeitige Abwertung.
-
-  '
-beispiele:
+semantische_grabber_id: SGR_POWER_PLAY_01
+metadata:
+  created_at: 2025-07-22 00:20:07.051016
+  created_by: FRAUSAR_GUI_v2
+  version: 1.0
+  tags:
+  - neu_erstellt
+  - needs_review
+  last_repaired: '2025-07-22T02:31:24.224364'
+  repair_version: '1.0'
+category: UNCATEGORIZED
+kategorie: UNCATEGORIZED
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
+examples:
+- AUTO_GENERATED_EXAMPLE_1
+- AUTO_GENERATED_EXAMPLE_2
+- AUTO_GENERATED_EXAMPLE_3
+- AUTO_GENERATED_EXAMPLE_4
+- AUTO_GENERATED_EXAMPLE_5
 - Ich habe entschieden, dass wir das Geld investieren. Deine Zweifel sind doch lächerlich.
 - Wir machen das jetzt so. Stell dich nicht so an.
 - Das ist keine Diskussion, dein Problem, wenn du’s nicht checkst.
@@ -23,24 +41,8 @@ beispiele:
 - Wir nutzen das Tool. Deine Skepsis ist kindisch.
 - Vertrag ist fix. Hör auf zu übertreiben.
 - Ich hab alles arrangiert. Deine Bedenken sind Drama.
-semantische_grabber_id: SGR_POWER_PLAY_01
-metadata:
-  created_at: 2025-07-22 00:20:07.051016
-  created_by: FRAUSAR_GUI_v2
-  version: 1.0
-  tags:
-  - neu_erstellt
-  - needs_review
-  last_repaired: '2025-07-22T02:31:24.224364'
-  repair_version: '1.0'
-category: UNCATEGORIZED
 tags:
 - needs_review
-examples:
-- AUTO_GENERATED_EXAMPLE_1
-- AUTO_GENERATED_EXAMPLE_2
-- AUTO_GENERATED_EXAMPLE_3
-- AUTO_GENERATED_EXAMPLE_4
-- AUTO_GENERATED_EXAMPLE_5
-
-kategorie: UNCATEGORIZED
+id: S_POWER_PLAY_MARKER
+author: unknown
+created: '2025-08-02'

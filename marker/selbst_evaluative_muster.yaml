@@ -1,4 +1,3 @@
-marker_name: selbst_evaluative_muster
 marker_list:
 - beispiele:
   - Wenn ich das richtig verstanden habe, dann müsste das auch hier gelten...
@@ -36,6 +35,20 @@ marker_list:
   name: Akustischer Kohärenzbruch
   typ: Modalitätskonflikt / Kontextdissonanz
 set_name: selbst_evaluative_muster
-
 kategorie: UNCATEGORIZED
-tags: [needs_review]
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
+examples:
+- MARKER example 1
+- MARKER example 2
+- MARKER example 3
+- MARKER example 4
+- MARKER example 5
+tags:
+- needs_review
+id: selbst_evaluative_muster
+author: unknown
+created: '2025-08-02'

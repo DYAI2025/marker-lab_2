@@ -1,17 +1,17 @@
 kategorie: ATOMIC
-marker:
-  category: Atomic
-  context_rule: []
-  description: Automatisch generierte Beschreibung für verhalten_verlustangst_bindungsangst
-  examples:
-  - Automatisch generierte Beschreibung für verhalten_verlustangst_bindungsangst
-  id: M_VERHALTEN_VERLUSTANGST_BINDUNGSANGST
-  level: 1
-  name: verhalten_verlustangst_bindungsangst
-  pattern: []
-  semantic_grabber_id: AUTO_SEM_20250714_BD8A
-  semantic_tags:
-  - verhalten-verlustangst-bindungsangst
-marker_name: verhalten_verlustangst_bindungsangst
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
+examples:
+- MARKER example 1
+- MARKER example 2
+- MARKER example 3
+- MARKER example 4
+- MARKER example 5
 tags:
 - needs_review
+id: verhalten_verlustangst_bindungsangst
+author: unknown
+created: '2025-08-02'

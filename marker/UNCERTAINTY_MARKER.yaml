@@ -1,52 +1,21 @@
-marker_name:
-  category: Semantic
-  context_rule: []
-  description: Automatisch generierte Beschreibung für UNCERTAINTY_MARKER
-  examples:
-  - Ich hab jetzt alles so gemacht, wie Sie gesagt haben, aber es funktioniert immer
-    noch nicht. Ich hab keine Ahnung, was ich hier eigentlich tue.
-  - Ich verstehe einfach nicht, worauf du hinauswillst. Erst sagst du A, dann B. Was
-    ist dein Punkt?
-  - Also… die Anweisungen sind irgendwie vage. Könnten Sie das Ziel des Projekts nochmal
-    in einfachen Worten zusammenfassen?
-  - Das Angebot klingt zu gut, um wahr zu sein. Irgendwas fühlt sich hier komisch
-    an, ich blick da nicht durch.
-  - Warte mal, wer hat jetzt mit wem was? Ich bin komplett raus.
-  - Bin ich jetzt hier richtig? Die Wegbeschreibung ist das reinste Labyrinth.
-  - Leute, ich hab den Faden verloren. 🤯 Können wir das Thema bitte nochmal von vorne
-    aufrollen?
-  - Ich fühle mich wie im Nebel. Ich weiß, dass ich was ändern muss, aber ich sehe
-    den Weg nicht.
-  - Ich kann der Argumentationskette noch nicht ganz folgen.
-  - Das ist doch alles nur heiße Luft. Keiner hier weiß doch, wovon er redet.
-  - Ich blick da nicht durch, keine Ahnung, was hier abgeht.
-  - Ich verstehe gar nicht, was du eigentlich willst.
-  - Alles wirkt so nebulös, ich kriege keinen klaren Eindruck.
-  - Ist das jetzt ernst gemeint oder nicht, ich check’s nicht.
-  - Ich hab keinen Plan, was hier gespielt wird.
-  - Mir fehlt der Durchblick, alles ist so undurchsichtig.
-  - Ich fühl mich lost, was soll ich jetzt tun?
-  - Ich hab keine klare Vorstellung, wie das enden soll.
-  - Das ist mir zu schwammig, sag mir bitte, was genau du meinst.
-  - Ich bin verwirrt, wo ist hier der rote Faden?
-  id: S_UNCERTAINTY
-  level: 2
-  name: UNCERTAINTY
-  pattern: []
-  semantic_grabber_id: AUTO_SEM_20250714_5587
-  semantic_tags:
-  - needs_review
 category: SEMANTIC
-tags:
-- needs_review
+metadata:
+  last_repaired: '2025-07-19T05:25:21.688508'
+  repair_version: '1.0'
+kategorie: UNCATEGORIZED
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
 examples:
 - AUTO_GENERATED_EXAMPLE_1
 - AUTO_GENERATED_EXAMPLE_2
 - AUTO_GENERATED_EXAMPLE_3
 - AUTO_GENERATED_EXAMPLE_4
 - AUTO_GENERATED_EXAMPLE_5
-metadata:
-  last_repaired: '2025-07-19T05:25:21.688508'
-  repair_version: '1.0'
-
-kategorie: UNCATEGORIZED
+tags:
+- needs_review
+id: UNCERTAINTY_MARKER
+author: unknown
+created: '2025-08-02'

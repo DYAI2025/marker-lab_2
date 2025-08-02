@@ -1,5 +1,3 @@
-marker_name: WITH_OPEN_PATH___R___ENCODING__UTF_8___AS_F_MARKER
-beschreibung: ''
 beispiele: null
 semantische_grabber_id: AUTO_SEM_20250718_C535
 metadata:
@@ -12,13 +10,20 @@ metadata:
   last_repaired: '2025-07-22T02:31:24.133863'
   repair_version: '1.0'
 category: UNCATEGORIZED
-tags:
-- needs_review
+kategorie: UNCATEGORIZED
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
 examples:
 - AUTO_GENERATED_EXAMPLE_1
 - AUTO_GENERATED_EXAMPLE_2
 - AUTO_GENERATED_EXAMPLE_3
 - AUTO_GENERATED_EXAMPLE_4
 - AUTO_GENERATED_EXAMPLE_5
-
-kategorie: UNCATEGORIZED
+tags:
+- needs_review
+id: WITH_OPEN(PATH,_"R",_ENCODING="UTF-8")_AS_F_MARKER
+author: unknown
+created: '2025-08-02'

@@ -1,8 +1,26 @@
-marker_name: S_GUILT_TWIST_MARKER
-beschreibung: 'Rechtfertigung + sofortige Schuldumkehr an Empfänger.
-
-  '
-beispiele:
+semantische_grabber_id: SGR_GUILT_TWIST_01
+metadata:
+  created_at: 2025-07-22 00:19:39.586826
+  created_by: FRAUSAR_GUI_v2
+  version: 1.0
+  tags:
+  - neu_erstellt
+  - needs_review
+  last_repaired: '2025-07-22T02:31:24.229989'
+  repair_version: '1.0'
+category: UNCATEGORIZED
+kategorie: UNCATEGORIZED
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
+examples:
+- AUTO_GENERATED_EXAMPLE_1
+- AUTO_GENERATED_EXAMPLE_2
+- AUTO_GENERATED_EXAMPLE_3
+- AUTO_GENERATED_EXAMPLE_4
+- AUTO_GENERATED_EXAMPLE_5
 - Ich wollte doch nur helfen, aber wenn du immer so empfindlich bist, kann man ja
   gar nichts sagen.
 - Das war nicht meine Absicht, aber du hast das Ganze doch provoziert.
@@ -24,24 +42,8 @@ beispiele:
 - Meine Intention klar, dein Verhalten unklar.
 - Will was Gutes, du siehst Angriff.
 - Hab nur reagiert, weil du vorher so ungenau warst.
-semantische_grabber_id: SGR_GUILT_TWIST_01
-metadata:
-  created_at: 2025-07-22 00:19:39.586826
-  created_by: FRAUSAR_GUI_v2
-  version: 1.0
-  tags:
-  - neu_erstellt
-  - needs_review
-  last_repaired: '2025-07-22T02:31:24.229989'
-  repair_version: '1.0'
-category: UNCATEGORIZED
 tags:
 - needs_review
-examples:
-- AUTO_GENERATED_EXAMPLE_1
-- AUTO_GENERATED_EXAMPLE_2
-- AUTO_GENERATED_EXAMPLE_3
-- AUTO_GENERATED_EXAMPLE_4
-- AUTO_GENERATED_EXAMPLE_5
-
-kategorie: UNCATEGORIZED
+id: S_GUILT_TWIST_MARKER
+author: unknown
+created: '2025-08-02'

@@ -1,32 +1,21 @@
-marker_name:
-  category: Semantic
-  context_rule: []
-  description: Automatisch generierte Beschreibung für kommunikationsmarker_ident
-  examples:
-  - '"name": "identifiziere_kommunikationsmarker",'
-  - '"description": "Analysiert einen Dialog und identifiziert spezifische psychologische
-    Kommunikationsmarker.",'
-  - '"parameters": {'
-  - '"type": "object",'
-  - '"properties": {'
-  id: S_KOMMUNIKATIONSMARKER_IDENT
-  level: 2
-  name: kommunikationsmarker_ident
-  pattern: []
-  semantic_grabber_id: AUTO_SEM_20250714_FB2E
-  semantic_tags:
-  - kommunikationsmarker-ident
 category: SEMANTIC
-tags:
-- needs_review
+metadata:
+  last_repaired: '2025-07-19T05:25:21.545377'
+  repair_version: '1.0'
+kategorie: UNCATEGORIZED
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
 examples:
 - AUTO_GENERATED_EXAMPLE_1
 - AUTO_GENERATED_EXAMPLE_2
 - AUTO_GENERATED_EXAMPLE_3
 - AUTO_GENERATED_EXAMPLE_4
 - AUTO_GENERATED_EXAMPLE_5
-metadata:
-  last_repaired: '2025-07-19T05:25:21.545377'
-  repair_version: '1.0'
-
-kategorie: UNCATEGORIZED
+tags:
+- needs_review
+id: kommunikationsmarker_ident
+author: unknown
+created: '2025-08-02'

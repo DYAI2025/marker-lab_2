@@ -1,17 +1,17 @@
 kategorie: ATOMIC
-marker:
-  category: Atomic
-  context_rule: []
-  description: Automatisch generierte Beschreibung für RECOPA_chunk_output_template
-  examples:
-  - Automatisch generierte Beschreibung für RECOPA_chunk_output_template
-  id: M_RECOPA_CHUNK_OUTPUT_TEMPLATE
-  level: 1
-  name: RECOPA_chunk_output_template
-  pattern: []
-  semantic_grabber_id: AUTO_SEM_20250714_2456
-  semantic_tags:
-  - recopa-chunk-output-template
-marker_name: RECOPA_chunk_output_template
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
+examples:
+- MARKER example 1
+- MARKER example 2
+- MARKER example 3
+- MARKER example 4
+- MARKER example 5
 tags:
 - needs_review
+id: RECOPA_chunk_output_template
+author: unknown
+created: '2025-08-02'

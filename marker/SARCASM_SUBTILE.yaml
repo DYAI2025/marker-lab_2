@@ -1,23 +1,17 @@
 kategorie: SEMANTIC
-marker:
-  category: Semantic
-  context_rule: []
-  description: 'Sarkastische oder ironische Aussagen, die Schuldgefühle beim Gegenüber
-    auslösen sollen, ohne die Schuld direkt zu benennen. Die Manipulation ist oft
-    beruflich, beziehungshaft oder selbstironisch getarnt.
-
-    '
-  examples:
-  - Sarkastische oder ironische Aussagen, die Schuldgefühle beim Gegenüber auslösen
-    sollen, ohne die Schuld direkt zu benennen
-  - Die Manipulation ist oft beruflich, beziehungshaft oder selbstironisch getarnt
-  id: S_SARCASM_SUBTILE
-  level: 2
-  name: SARCASM_SUBTILE
-  pattern: []
-  semantic_grabber_id: AUTO_SEM_20250714_1ADA
-  semantic_tags:
-  - sarcasm-subtile
-marker_name: SARCASM_SUBTILE
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
+examples:
+- MARKER example 1
+- MARKER example 2
+- MARKER example 3
+- MARKER example 4
+- MARKER example 5
 tags:
 - needs_review
+id: SARCASM_SUBTILE
+author: unknown
+created: '2025-08-02'

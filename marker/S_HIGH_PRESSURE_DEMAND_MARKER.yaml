@@ -1,14 +1,4 @@
-marker_name: S_HIGH_PRESSURE_DEMAND_MARKER
-beschreibung: 'id: S_HIGH_PRESSURE_DEMAND
-
-  '
-level: 2
-version: 1.0.0
 author: Schema-Engineer_fo_syst./psych./_markerweights
-created_at: '2025-07-18'
-status: draft
-lang: de
-name: HOCHDRUCK_AUFFORDERUNG
 description: Kombiniert einen Appell an Autorität mit zeitlicher Knappheit, um eine
   unüberlegte, schnelle Entscheidung zu erzwingen.
 composed_of:
@@ -24,16 +14,6 @@ rules:
 semantic_grabber_id: SGR_SCARCITY_01
 cluster:
 - C_MANIPULATIVE_PERSUASION
-tags:
-- cialdini
-- persuasion
-- social_engineering
-- scam_pattern
-- origin_author:Robert_Cialdini
-beispiele:
-- 'examples:'
-- '- Experten sagen, dass dieses Angebot nur noch heute gilt, also müssen Sie sich'
-- jetzt entscheiden.
 semantische_grabber_id: AUTO_SEM_20250718_08AA
 metadata:
   created_at: 2025-07-18 02:14:09.189799
@@ -45,11 +25,26 @@ metadata:
   last_repaired: '2025-07-22T02:31:24.183973'
   repair_version: '1.0'
 category: UNCATEGORIZED
+kategorie: UNCATEGORIZED
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
 examples:
 - AUTO_GENERATED_EXAMPLE_1
 - AUTO_GENERATED_EXAMPLE_2
 - AUTO_GENERATED_EXAMPLE_3
 - AUTO_GENERATED_EXAMPLE_4
 - AUTO_GENERATED_EXAMPLE_5
-
-kategorie: UNCATEGORIZED
+- 'examples:'
+- '- Experten sagen, dass dieses Angebot nur noch heute gilt, also müssen Sie sich'
+- jetzt entscheiden.
+tags:
+- cialdini
+- persuasion
+- social_engineering
+- scam_pattern
+- origin_author:Robert_Cialdini
+id: S_HIGH_PRESSURE_DEMAND_MARKER
+created: '2025-07-18'

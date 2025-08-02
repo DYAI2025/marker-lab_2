@@ -1,8 +1,26 @@
-marker_name: A_TOGETHERNESS_TERMS_MARKER
-beschreibung: 'Words emphasizing the ‘we’ feeling and shared identity.
-
-  '
-beispiele:
+semantische_grabber_id: SGR_TOGETHERNESS_TERMS_01
+metadata:
+  created_at: 2025-07-22 00:26:06.785433
+  created_by: FRAUSAR_GUI_v2
+  version: 1.0
+  tags:
+  - neu_erstellt
+  - needs_review
+  last_repaired: '2025-07-22T02:31:24.141820'
+  repair_version: '1.0'
+category: UNCATEGORIZED
+kategorie: UNCATEGORIZED
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
+examples:
+- AUTO_GENERATED_EXAMPLE_1
+- AUTO_GENERATED_EXAMPLE_2
+- AUTO_GENERATED_EXAMPLE_3
+- AUTO_GENERATED_EXAMPLE_4
+- AUTO_GENERATED_EXAMPLE_5
 - Wir beide schaffen das schon.
 - The two of us can handle this.
 - Lass uns das zusammen machen.
@@ -33,24 +51,8 @@ beispiele:
 - Our plan, our rules.
 - We rise, we shine—together.
 - As teammates in life, we rock.
-semantische_grabber_id: SGR_TOGETHERNESS_TERMS_01
-metadata:
-  created_at: 2025-07-22 00:26:06.785433
-  created_by: FRAUSAR_GUI_v2
-  version: 1.0
-  tags:
-  - neu_erstellt
-  - needs_review
-  last_repaired: '2025-07-22T02:31:24.141820'
-  repair_version: '1.0'
-category: UNCATEGORIZED
 tags:
 - needs_review
-examples:
-- AUTO_GENERATED_EXAMPLE_1
-- AUTO_GENERATED_EXAMPLE_2
-- AUTO_GENERATED_EXAMPLE_3
-- AUTO_GENERATED_EXAMPLE_4
-- AUTO_GENERATED_EXAMPLE_5
-
-kategorie: UNCATEGORIZED
+id: A_TOGETHERNESS_TERMS_MARKER
+author: unknown
+created: '2025-08-02'

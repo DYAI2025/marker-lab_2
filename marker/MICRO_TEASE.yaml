@@ -1,15 +1,14 @@
 id: MICRO_TEASE
-level: '1'
-version: 0.1.0
 author: assistant
-created_at: '2025-07-22'
-status: draft
-lang: de
-name: NEGLECT_PATTERN
 description: '|'
 '- id': NEGLECT_PATTERN
 hinweise auf vernachlässigung: fehlende Antwort, einseitige Kommunikation.
 category: general
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
 examples:
 - ''
 - '"Na, traust du dich?"'
@@ -17,9 +16,10 @@ examples:
 - '"Wirst du jetzt rot?"'
 - '"Nur ein bisschen ärgern 😉"'
 - '"Du machst es mir zu einfach."'
-- ''
 - '"*gelesen - keine Antwort*"'
 - '"Sorry, hab deine letzten drei Nachrichten übersehen."'
 - '"War beschäftigt, melde mich irgendwann."'
 - '"Ups, ganz vergessen zu schreiben."'
 - '"Ach, das ist untergegangen."'
+tags: []
+created: '2025-07-22'
