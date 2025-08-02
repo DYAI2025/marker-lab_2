@@ -1,0 +1,37 @@
+# .github/workflows/marker-integrity.yml
+name: Marker-Integrität
+
+on:
+  push:
+    paths:
+      - 'marker/**'
+      - 'integrity_pipeline.py'
+  schedule:
+    # nächtlicher Lauf um 02:00 Uhr Berlin (UTC+2)
+    - cron: '0 0 * * *'
+
+jobs:
+  integrity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyyaml ruamel.yaml hypothesis rich tqdm sqlite-utils
+
+      - name: Run Integrity Pipeline
+        run: python integrity_pipeline.py run
+
+      - name: Upload Report
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: marker-report
+          path: logs/*.md
