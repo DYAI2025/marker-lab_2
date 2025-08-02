@@ -1,0 +1,36 @@
+psychologischer_hintergrund:
+- Abwehrmechanismus: Projektion, Rationalisierung
+- Theorie: Karpman-Dramadreieck (Verfolger-Rolle)
+- Theorie: Narrative Therapie (Konstruktion einer Problem-Story)
+semantic_grab:
+  description: Erkennt 'Du'-Botschaften, konditionale Rechtfertigungen und die Zuschreibung
+    von negativen Absichten an andere.
+  patterns:
+  - example: Ich hätte das nicht gesagt, wenn du mich nicht so provoziert hättest.
+    pattern: (Ich hätte nicht|Ich würde nicht) +([\w\s]+) +(wenn du nicht|weil du)
+    rule: CONDITIONAL_JUSTIFICATION
+  - example: Du bist einfach zu sensibel für diese Art von Humor.
+    pattern: (Du) +(reagierst|interpretierst|bist) +(zu|übermäßig|einfach) +(sensibel|negativ|emotional)
+    rule: PATHOLOGIZING_THE_REACTION
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
+examples:
+- AUTO_GENERATED_EXAMPLE_1
+- AUTO_GENERATED_EXAMPLE_2
+- AUTO_GENERATED_EXAMPLE_3
+- AUTO_GENERATED_EXAMPLE_4
+- AUTO_GENERATED_EXAMPLE_5
+tags:
+- schuld
+- verantwortung
+- projektion
+- konflikt
+- abwehr
+id: LD32_BLAME_SHIFT_MARKER
+author: unknown
+created: '2025-08-02'
+lean_deep_version: '3.2'
+last_repaired: '2025-08-02T21:33:29.739972'

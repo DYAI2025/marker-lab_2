@@ -1,0 +1,24 @@
+semantische_grabber_id: SGR_SUBTLE_SARCASM_01
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
+examples:
+- AUTO_GENERATED_EXAMPLE_1
+- AUTO_GENERATED_EXAMPLE_2
+- AUTO_GENERATED_EXAMPLE_3
+- AUTO_GENERATED_EXAMPLE_4
+- AUTO_GENERATED_EXAMPLE_5
+- Na toll, dann mach ich das eben allein.
+- Schön für dich, dass du schon fertig bist.
+- War ja klar, dass du das wieder vergisst.
+- Wie nett von dir, dass du auch mal fragst.
+- Muss ja schön sein, wenn man so viel Zeit hat.
+tags:
+- needs_review
+id: LD32_SUBTLE_SARCASM_MARKER
+author: unknown
+created: '2025-08-02'
+lean_deep_version: '3.2'
+last_repaired: '2025-08-02T21:33:29.789729'

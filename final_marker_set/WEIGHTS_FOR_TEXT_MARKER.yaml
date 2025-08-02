@@ -1,0 +1,49 @@
+Meta_Text:
+  self_ref:
+    weight: 0.8
+    patterns:
+    - \b(I|ich|meine?)\b
+  meta_comm:
+    weight: 0.9
+    patterns:
+    - chat
+    - gespräch
+    - dialog
+    - conversation
+  intent:
+    weight: 1.0
+    patterns:
+    - ich (will|möchte)
+    - my goal
+    - mein ziel
+  recall:
+    weight: 0.7
+    patterns:
+    - remember
+    - erinnere
+    - wie wir gesagt
+persona_switch:
+  weight: 1.0
+  patterns:
+  - \bPippi\b
+  - \bTyler\b
+  - \bPicard\b
+  - \bClarisse\b
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
+examples:
+- AUTO_GENERATED_EXAMPLE_1
+- AUTO_GENERATED_EXAMPLE_2
+- AUTO_GENERATED_EXAMPLE_3
+- AUTO_GENERATED_EXAMPLE_4
+- AUTO_GENERATED_EXAMPLE_5
+tags:
+- needs_review
+id: LD32_WEIGHTS_FOR_TEXT_MARKER
+author: unknown
+created: '2025-08-02'
+lean_deep_version: '3.2'
+last_repaired: '2025-08-02T21:33:29.729156'

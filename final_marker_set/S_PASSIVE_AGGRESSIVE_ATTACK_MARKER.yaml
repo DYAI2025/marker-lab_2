@@ -1,0 +1,21 @@
+semantische_grabber_id: SGR_PASSIVE_AGGRESSIVE_ATTACK_01
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
+examples:
+- AUTO_GENERATED_EXAMPLE_1
+- AUTO_GENERATED_EXAMPLE_2
+- AUTO_GENERATED_EXAMPLE_3
+- AUTO_GENERATED_EXAMPLE_4
+- AUTO_GENERATED_EXAMPLE_5
+- War ja klar. Ich sag mal so, andere hätten das anders gelöst.
+- Schön für dich. Um ehrlich zu sein, ich hätte mir etwas mehr Unterstützung gewünscht.
+tags:
+- needs_review
+id: LD32_PASSIVE_AGGRESSIVE_ATTACK_MARKER
+author: unknown
+created: '2025-08-02'
+lean_deep_version: '3.2'
+last_repaired: '2025-08-02T21:33:30.100084'

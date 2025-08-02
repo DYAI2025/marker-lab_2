@@ -1,0 +1,20 @@
+semantische_grabber_id: AUTO_SEM_20250723_48FD
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
+examples:
+- Ich habe das Gefühl, wir stecken fest. Es ist immer wieder das gleiche Thema und
+  es ändert sich nichts, das ist so frustrierend.
+- Unsere Beziehung ist seit Wochen angespannt wegen dieses ungelösten Problems.
+- Es belastet mich sehr, dass wir immer wieder an derselben Stelle enden.
+- Ich sehe keine Fortschritte, und es frustriert mich, dass wir keinen Ausweg finden.
+- Unsere Gespräche drehen sich ständig im Kreis, und ich frage mich, ob das jemals
+  endet.
+tags: []
+id: LD32_RELATIONSHIP_STRAIN_MARKER
+author: unknown
+created: '2025-08-02'
+lean_deep_version: '3.2'
+last_repaired: '2025-08-02T21:33:30.048217'

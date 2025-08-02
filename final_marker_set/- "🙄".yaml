@@ -1,0 +1,23 @@
+id: LD32_"🙄"
+description: Erkennt kurze, abwertende oder gleichgültige Phrasen, die die Gefühle
+  oder das Anliegen des Gegenübers invalidieren und Nähe unterbrechen. Dient oft der
+  Distanzierung oder als passive Aggression.
+author: kimi_k2@moonshot.ai
+created: '2025-07-26T07:36:03Z'
+last_modified: '2025-07-26T07:36:03Z'
+tags: []
+risk_score: '3'
+'- "a': 'Ich liebe dich. B: 👍'
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
+examples:
+- '"Ich hab mir da viele Gedanken gemacht... - Whatever."'
+- '"Ich hab das Gefühl, wir reden aneinander vorbei. - Wie du meinst."'
+- '"Das ist mir wichtig! - Ist doch egal."'
+- A_"🙄" example 5
+- 'TODO: Relevantes Beispiel für LD32_"🙄" hinzufügen'
+lean_deep_version: '3.2'
+last_repaired: '2025-08-02T21:33:30.138339'

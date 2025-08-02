@@ -1,0 +1,24 @@
+semantic_grab:
+  description: Erkennt Muster für system_turning_cluster.txt
+  patterns:
+  - pattern: r"(muster.*wird.*ergänzt)"
+    rule: AUTO_PATTERN
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
+examples:
+- AUTO_GENERATED_EXAMPLE_1
+- AUTO_GENERATED_EXAMPLE_2
+- AUTO_GENERATED_EXAMPLE_3
+- AUTO_GENERATED_EXAMPLE_4
+- AUTO_GENERATED_EXAMPLE_5
+tags:
+- neu_erstellt
+- needs_review
+id: LD32_SYSTEM_TURNING_CLUSTER.yaml_MARKER
+author: unknown
+created: '2025-08-02'
+lean_deep_version: '3.2'
+last_repaired: '2025-08-02T21:33:29.926348'

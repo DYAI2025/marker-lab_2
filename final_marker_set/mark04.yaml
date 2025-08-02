@@ -1,0 +1,231 @@
+markers:
+- id: A_CERTAINTY_PHRASE
+  level: 1
+  version: 1.0.0
+  author: auto_gpt
+  created_at: '2025-07-18'
+  status: draft
+  lang: de
+  name: CERTAINTY_PHRASE
+  description: Ausdrücke, die Wissen, Kontrolle oder Sicherheit signalisieren.
+  category: ATOMIC
+  atomic_pattern:
+  - auf jeden Fall
+  - ganz sicher
+  - definitiv
+  - absolut klar
+  - hundertprozentig
+  tags:
+  - sicherheit
+  - gewissheit
+  examples:
+  - Das ist auf jeden Fall die richtige Entscheidung.
+  - Ganz sicher, da gibt es keinen Zweifel.
+  - Das ist definitiv mein Ernst.
+  - Absolut klar, was jetzt zu tun ist.
+  - Das ist hundertprozentig so.
+- id: A_UNCERTAINTY_PHRASE
+  level: 1
+  version: 1.0.0
+  author: auto_gpt
+  created_at: '2025-07-18'
+  status: draft
+  lang: de
+  name: UNCERTAINTY_PHRASE
+  description: Ausdrücke, die Nichtwissen, Zweifel oder Unsicherheit signalisieren.
+  category: ATOMIC
+  atomic_pattern:
+  - weiß nicht
+  - bin mir nicht sicher
+  - könnte sein
+  - möglicherweise
+  - eventuell
+  tags:
+  - unsicherheit
+  - zweifel
+  examples:
+  - Ich weiß nicht, ob das klappt.
+  - Bin mir da echt nicht sicher.
+  - Das könnte schon sein, ja.
+  - Möglicherweise funktioniert das.
+  - Eventuell probiere ich es mal.
+- id: A_CRITICISM_ATTACK
+  level: 1
+  version: 1.0.0
+  author: auto_gpt
+  created_at: '2025-07-18'
+  status: draft
+  lang: de
+  name: CRITICISM_ATTACK
+  description: Kritik- und Angriffsemojis sowie typische Textsignale für Kritik.
+  category: ATOMIC
+  atomic_pattern:
+  - 😡
+  - 😠
+  - 😤
+  - 🤬
+  - du bist immer
+  - nie machst du
+  - wie kann man nur
+  tags:
+  - kritik
+  - angriff
+  examples:
+  - 😡 Du bist schon wieder zu spät.
+  - Nie machst du, was ich sage!
+  - Wie kann man nur so unzuverlässig sein?
+  - Das war echt das letzte Mal, dass ich das mitmache!
+  - 🤬 Das geht so nicht weiter!
+- id: A_DEFENSIVENESS_SHIFT
+  level: 1
+  version: 1.0.0
+  author: auto_gpt
+  created_at: '2025-07-18'
+  status: draft
+  lang: de
+  name: DEFENSIVENESS_SHIFT
+  description: Typische Verteidigungs- oder Ablenkungsphrasen, mit denen Kritik abgeschwächt
+    oder zurückgewiesen wird.
+  category: ATOMIC
+  atomic_pattern:
+  - ich bin nicht das Problem
+  - du übertreibst
+  - das siehst du nur so
+  - eigentlich geht es doch um was anderes
+  - das stimmt so nicht
+  tags:
+  - abwehr
+  - rechtfertigung
+  examples:
+  - Ich bin nicht das Problem, du bist es!
+  - Du übertreibst total.
+  - Das siehst du nur so, das ist gar nicht so gemeint.
+  - Eigentlich geht es doch um was ganz anderes.
+  - Das stimmt so nicht, wie du das darstellst.
+- id: S_CRITICISM_DEFENSIVENESS_LOOP
+  level: 2
+  version: 1.0.0
+  author: auto_gpt
+  created_at: '2025-07-18'
+  status: draft
+  lang: de
+  name: CRITICISM_DEFENSIVENESS_LOOP
+  description: 'Kombinierte Erkennung von eskalierender Kritik und Verteidigungsrhetorik
+    im Dialog.
+
+    '
+  category: SEMANTIC
+  composed_of:
+  - type: atomic
+    marker_ids:
+    - A_CRITICISM_ATTACK
+    - A_DEFENSIVENESS_SHIFT
+  activation_logic: sequential
+  tags:
+  - gottman
+  - escalation
+  examples:
+  - "A: \"Nie bist du pünktlich.\"  \nB: \"Das siehst du nur so.\"  \nA: \"Immer findest\
+    \ du Ausreden.\"  \nB: \"Ich bin nicht das Problem!\"\n"
+- id: C_SOFT_COMMITMENT
+  level: 3
+  version: 1.0.0
+  author: auto_gpt
+  created_at: '2025-07-18'
+  status: draft
+  lang: de
+  name: SOFT_COMMITMENT
+  description: 'Cluster-Marker für ambivalente, aber weich-positive Beziehungsangebote,
+    bei denen Verantwortung für Nähe oder Initiative auf das Gegenüber verschoben
+    wird.
+
+    '
+  category: CLUSTER
+  composed_of:
+  - type: atomic
+    marker_ids:
+    - A_IF_YOU_WANT
+  scoring:
+    weight: 1.0
+    priority: mid
+  tags:
+  - ambivalenz
+  - offenheit
+  examples:
+  - Ich würd dich echt gern sehen – aber nur, wenn das für dich grad okay ist.
+  - Wenn du Lust hast, ich wär da – aber kein Druck.
+  - Sag du einfach, ich bin flexibel.
+  - Ich wär offen für ein Treffen – aber nur, wenn du magst.
+  - Ich misch mich nicht ein – aber wär schön, dich zu sehen.
+- id: C_SELF_PROTECTION_TACTICS
+  level: 3
+  version: 1.0.0
+  author: auto_gpt
+  created_at: '2025-07-18'
+  status: draft
+  lang: de
+  name: SELF_PROTECTION_TACTICS
+  description: 'Cluster-Marker, der typische Selbstschutz- und Täuschungsstrategien
+    erfasst: Teilwahrheiten, Verharmlosung, Gaslighting und nonverbale Abwertung.
+
+    '
+  category: CLUSTER
+  composed_of:
+  - type: atomic
+    marker_ids:
+    - A_DEFENSIVENESS_SHIFT
+  tags:
+  - schutz
+  - täuschung
+  examples:
+  - Das siehst du nur so, ich wollte dich nicht verletzen.
+  - Du verstehst das alles falsch, es ist nicht so schlimm.
+  - Ich bin eigentlich ganz anders, als du denkst.
+  - Ach, das ist doch alles gar nicht so wichtig.
+  - Da interpretierst du jetzt zu viel rein.
+- id: MM_SELF_PROTECTION_DECEPTION
+  level: 4
+  version: 1.0.0
+  author: auto_gpt
+  created_at: '2025-07-18'
+  status: draft
+  lang: de
+  name: SELF_PROTECTION_DECEPTION
+  description: 'Meta-Marker für das übergeordnete Muster einer erlernten Selbstschutzstrategie,
+    die auf Teilwahrheiten, Verharmlosung und Gaslighting basiert, um Verantwortung
+    zu vermeiden.
+
+    '
+  category: META
+  composed_of:
+  - type: cluster
+    marker_ids:
+    - C_SELF_PROTECTION_TACTICS
+  trigger_threshold: 1
+  scoring:
+    weight: 1.8
+    priority: high
+  tags:
+  - täuschung
+  - selbstschutz
+  examples:
+  - Wiederholtes relativieren, ablenken, nie Verantwortung übernehmen.
+  - Es kommt immer zu Ausreden oder 'Missverständnissen'.
+  - 'Meta-Effekt: Am Ende steht immer Selbstentlastung, nie echte Einsicht.'
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
+examples:
+- MARKER example 1
+- MARKER example 2
+- MARKER example 3
+- MARKER example 4
+- MARKER example 5
+tags: []
+id: LD32_mark04
+author: unknown
+created: '2025-08-02'
+lean_deep_version: '3.2'
+last_repaired: '2025-08-02T21:33:29.804587'

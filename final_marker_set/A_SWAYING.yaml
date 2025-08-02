@@ -1,4 +1,4 @@
-id: A_SWAYING
+id: LD32_SWAYING
 frame:
   signal: Phrases wie 'ich schwanke', 'hin- und hergerissen', 'mal X, mal Y'
   concept: Unentschlossenheit oder Schwanken zwischen Optionen
@@ -16,3 +16,5 @@ tags:
 - atomic
 - indecision
 - hesitation
+lean_deep_version: '3.2'
+last_repaired: '2025-08-02T21:33:29.830174'

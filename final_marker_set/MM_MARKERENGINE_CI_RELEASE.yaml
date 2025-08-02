@@ -1,0 +1,25 @@
+id: LD32_MARKERENGINE_CI_RELEASE
+author: senior_fullstack_lead
+description: '>'
+phases: ''
+'- name': Release Hardening
+trigger: Pull-Request
+tasks: ''
+gate: Fail-fast if any check fails
+cadence: Quarterly
+environment: Production
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
+examples:
+- MARKERENGINE_CI_RELEASE example 1
+- MARKERENGINE_CI_RELEASE example 2
+- MARKERENGINE_CI_RELEASE example 3
+- MARKERENGINE_CI_RELEASE example 4
+- MARKERENGINE_CI_RELEASE example 5
+tags: []
+created: '2025-07-26'
+lean_deep_version: '3.2'
+last_repaired: '2025-08-02T21:33:29.849711'

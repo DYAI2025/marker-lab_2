@@ -1,0 +1,199 @@
+markers:
+- id: A_APPEAL_TO_AUTHORITY
+  level: 1
+  version: 1.0.0
+  author: auto_gpt
+  created_at: '2025-07-18'
+  status: draft
+  lang: de
+  name: APPEAL_TO_AUTHORITY
+  description: 'Erkennt rhetorische Muster, bei denen Autoritäten, Experten oder Institutionen
+    als Quelle für eine Aussage genannt werden, um deren Gültigkeit oder Überzeugungskraft
+    zu erhöhen. Typisch als "Appeal to Authority".
+
+    '
+  category: ATOMIC
+  atomic_pattern:
+  - Laut einer Studie
+  - 'Dr. '
+  - 'Professor '
+  - Die WHO
+  - Experten warnen
+  - wissenschaftlichen Studien belegt
+  tags:
+  - autorität
+  - argument
+  examples:
+  - Laut einer Studie ist dies die effektivste Methode.
+  - Wie Dr. Weber gezeigt hat, ist diese Technik sehr zuverlässig.
+  - Die WHO hat deutlich gemacht, dass diese Maßnahme notwendig ist.
+  - Der Minister betonte die Wichtigkeit dieser Entscheidung.
+  - Experten warnen vor den Folgen.
+  - Dies wurde in zahlreichen wissenschaftlichen Studien belegt.
+- id: A_IF_YOU_WANT
+  level: 1
+  version: 1.0.0
+  author: auto_gpt
+  created_at: '2025-07-18'
+  status: draft
+  lang: de
+  name: IF_YOU_WANT
+  description: 'Typische Formulierungen, die Entscheidungsverantwortung höflich oder
+    indirekt an das Gegenüber delegieren.
+
+    '
+  category: ATOMIC
+  atomic_pattern:
+  - wenn du willst
+  - falls du magst
+  - wie du möchtest
+  - ich will dich nicht drängen
+  - deine Entscheidung
+  tags:
+  - offenheit
+  - delegation
+  examples:
+  - Können wir machen – aber nur, wenn du willst.
+  - Ich würd dich gern sehen… falls es dir passt.
+  - Wie du magst, ich bin offen.
+  - Ich will dich nicht drängen.
+  - Deine Entscheidung – ich richte mich nach dir.
+- id: S_EMO_VOLATILE_WINDOW
+  level: 2
+  version: 1.0.0
+  author: auto_gpt
+  created_at: '2025-07-18'
+  status: draft
+  lang: de
+  name: EMO_VOLATILE_WINDOW
+  description: 'Semantic marker for high emotional volatility: valence standard deviation
+    ≥ 0.45 within any 10-message window for the same speaker.
+
+    '
+  category: SEMANTIC
+  rules:
+  - type: stddev
+    threshold: 0.45
+    window: 10
+    field: valence
+  tags:
+  - emotional
+  - volatilität
+  examples:
+  - 'Valence series: 0.7, -0.6, 0.65, -0.55 – extreme swings.'
+  - A shifts from euphoria to despair within five posts.
+  - 'Chat: “Amazing!” → “Terrible!” → “Awesome!” → “Ugh…”'
+  - Stand-up mood graph shows wild spikes hour to hour.
+  - 'Voice mood: laughing, sobbing, laughing again inside 10 mins.'
+- id: S_EMO_CONTRAST_DRIFT
+  level: 2
+  version: 1.0.0
+  author: auto_gpt
+  created_at: '2025-07-18'
+  status: draft
+  lang: de
+  name: EMO_CONTRAST_DRIFT
+  description: 'Semantic marker for sharp polarity flip: valence ≥ 0.5 followed by
+    ≤ -0.5 within three turns (or vice versa) for the same speaker.
+
+    '
+  category: SEMANTIC
+  rules:
+  - type: trend_delta
+    threshold: 1.0
+    window: 3
+    field: valence
+  tags:
+  - emotional
+  - kontrast
+  examples:
+  - 'A: 0.65 (“Great!”) → -0.60 (“Everything sucks…”) within 3 lines.'
+  - Call log starts euphoric, ends despondent before hang-up.
+  - 'Morning: “Best day!” Noon: “Why bother?”'
+  - 'Voice: bright tone to tearful sighs quickly.'
+  - Status updates flip from celebration to crisis in minutes.
+- id: C_FRIENDSHIP_SIGNALING
+  level: 3
+  version: 1.0.0
+  author: auto_gpt
+  created_at: '2025-07-18'
+  status: draft
+  lang: de
+  name: FRIENDSHIP_SIGNALING
+  description: 'Cluster-Marker für sprachliche Signale, die Zugehörigkeit, Vertrautheit
+    und freundschaftliche Nähe erzeugen. Oft durch Anspielungen, geteilte Geschichte,
+    Nicknames oder ironische Zuneigung ausgedrückt.
+
+    '
+  category: CLUSTER
+  composed_of:
+  - type: atomic
+    marker_ids:
+    - A_BRO_LIKE_CALLING
+    - A_DAILY_GREETING
+  activation_logic: co_occur
+  scoring:
+    weight: 1.2
+    priority: mid
+  tags:
+  - freundschaft
+  - nähe
+  examples:
+  - Weißt du noch, wie wir damals im Regen gefeiert haben?
+  - Du bist und bleibst mein Lieblingsidiot.
+  - Egal was passiert, ich steh hinter dir, klar?
+  - Du kennst mich doch – ich brauch drei Tage zum Antworten 😂
+  - Nur du darfst mich so nennen, Alter.
+- id: MM_FLIRT_DANCE_DRIFT
+  level: 4
+  version: 1.0.0
+  author: auto_gpt
+  created_at: '2025-07-18'
+  status: draft
+  lang: de
+  name: FLIRT_DANCE_DRIFT
+  description: 'Verdichtete Sequenz aus Flirt-, Ambivalenz-, Rapid-Disclosure- und
+    Soft-Commitment-Mustern mit wachsender Intensität bei fehlender Definition.
+
+    '
+  category: META
+  composed_of:
+  - type: cluster
+    marker_ids:
+    - C_SOFT_COMMITMENT
+    - C_FRIENDSHIP_SIGNALING
+  trigger_threshold: 2
+  scoring:
+    weight: 2.0
+    priority: highest
+  tags:
+  - flirt
+  - ambivalenz
+  examples:
+  - Intensive, tagelange Chats mit viel Humor und Offenheit (SUSTAINED_CONTACT, RAPID_SELF_DISCLOSURE).
+  - 'Komprimiertes Beispiel über 3 Tage: Montag: 10-Minuten-Voicenote mit tiefen Geständnissen.
+    Dienstag: Keine Reaktion. Mittwoch: Kurze, witzige Meme-Antwort. Donnerstag: Rückzug,
+    dann plötzlich Vorschlag für Treffen.'
+  - Guten-Morgen-Rituale wechseln sich ab mit plötzlichen Funkstillen und tagelangem
+    Klammern.
+  - 'Szenario: Funkstille → plötzlich 15-Minuten-Voicenote voller Sehnsucht → wieder
+    zwei Tage Pause → vages Soft Commitment.'
+  - Beide chatten täglich, aber ein Treffen wird nie wirklich fixiert. Immer ein kleiner
+    Rückzug nach jeder Annäherung.
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
+examples:
+- MARKER example 1
+- MARKER example 2
+- MARKER example 3
+- MARKER example 4
+- MARKER example 5
+tags: []
+id: LD32_mark03
+author: unknown
+created: '2025-08-02'
+lean_deep_version: '3.2'
+last_repaired: '2025-08-02T21:33:30.119481'

@@ -1,0 +1,39 @@
+semantische_grabber_id: SGR_GENERALIZED_ACCUSATION_01
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
+examples:
+- AUTO_GENERATED_EXAMPLE_1
+- AUTO_GENERATED_EXAMPLE_2
+- AUTO_GENERATED_EXAMPLE_3
+- AUTO_GENERATED_EXAMPLE_4
+- AUTO_GENERATED_EXAMPLE_5
+- Immer machst du so ein Drama.
+- Nie hörst du richtig zu.
+- Ständig bist du am Handy.
+- Typisch für dich, alles zu spät zu erledigen.
+- Jedes Mal das Gleiche mit dir.
+- Immer vergisst du wichtige Details.
+- Nie kannst du dich entscheiden.
+- Ständig findest du Ausreden.
+- Typisch, dass du jetzt wieder abtauchst.
+- Jedes Mal musst du Recht haben.
+- Immer drehst du die Dinge, wie sie dir passen.
+- Nie sieht man von dir Eigeninitiative.
+- Ständig nörgelst du an allem herum.
+- Typisch für dich, anderen die Schuld zu geben.
+- Jedes Mal wenn's ernst wird, kneifst du.
+- Immer bist du der Letzte, der sich meldet.
+- Nie lässt du mich ausreden.
+- Ständig unterbrichst du mich.
+- Typisch, du übertreibst wieder maßlos.
+- Jedes Mal zerstörst du die Stimmung.
+tags:
+- needs_review
+id: LD32_GENERALIZED_ACCUSATION_MARKER
+author: unknown
+created: '2025-08-02'
+lean_deep_version: '3.2'
+last_repaired: '2025-08-02T21:33:30.067627'

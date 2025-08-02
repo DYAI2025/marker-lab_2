@@ -1,0 +1,24 @@
+semantische_grabber_id: SGR_OFFENDED_SILENCE_01
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
+examples:
+- AUTO_GENERATED_EXAMPLE_1
+- AUTO_GENERATED_EXAMPLE_2
+- AUTO_GENERATED_EXAMPLE_3
+- AUTO_GENERATED_EXAMPLE_4
+- AUTO_GENERATED_EXAMPLE_5
+- 'A: ''Ist alles okay bei dir?'' B: ''...'''
+- 'A: ''Können wir reden?'' B: ''k.'''
+- 'A: ''Ich hab das Essen gemacht.'' B: ''aha'''
+- 'A: ''Ich liebe dich.'' B: ''mhm'''
+- Passt schon. *wendet sich ab*
+tags:
+- needs_review
+id: LD32_OFFENDED_SILENCE_MARKER
+author: unknown
+created: '2025-08-02'
+lean_deep_version: '3.2'
+last_repaired: '2025-08-02T21:33:29.880428'

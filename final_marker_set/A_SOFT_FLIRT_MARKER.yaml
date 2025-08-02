@@ -1,0 +1,29 @@
+semantische_grabber_id: AUTO_SEM_20250720_57B1
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
+examples:
+- AUTO_GENERATED_EXAMPLE_1
+- AUTO_GENERATED_EXAMPLE_2
+- AUTO_GENERATED_EXAMPLE_3
+- AUTO_GENERATED_EXAMPLE_4
+- AUTO_GENERATED_EXAMPLE_5
+- Du bist heute echt süß unterwegs.
+- ;) Nur mal so.
+- Nenn mich verrückt, aber dein Lachen macht süchtig.
+- Frechheit siegt – hast du grad bewiesen.
+- Wer so schreibt, will bestimmt Ärger.
+- Gefällt mir, wie du denkst.
+- Riskierst du noch ein Meme-Duell?
+- Klingt interessant … erzähl mehr.
+- Challenge accepted, Charmeur.
+- Dein Ego passt kaum ins Chat-Fenster, aber ist ok.
+tags:
+- needs_review
+id: LD32_SOFT_FLIRT_MARKER
+author: unknown
+created: '2025-08-02'
+lean_deep_version: '3.2'
+last_repaired: '2025-08-02T21:33:29.711278'

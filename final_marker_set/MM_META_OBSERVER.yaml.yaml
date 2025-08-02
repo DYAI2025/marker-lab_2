@@ -1,0 +1,30 @@
+id: LD32_META_OBSERVER
+description: Detektiert und protokolliert Meta-Ebenen-Wechsel und explizite Marker-Referenzen
+  im Diskurs
+frame_ref: Meta_reflexion::Marker_Dialog
+trigger:
+- pattern: Marker
+- pattern: Frame
+- pattern: Interpretation
+- pattern: Meta-Analyse
+- pattern: referenziert
+activation_logic: COUNT(pattern) >= 2 WITHIN 1000 tokens
+output:
+  path: /mnt/memory/meta_observer/
+  format: meta_marker_event.json
+frame:
+  signal: ''
+  concept: ''
+  pragmatics: ''
+  narrative: ''
+examples:
+- In deiner Interpretation beziehst du dich auf meine Marker-Logik.
+- Das ist ein Frame-Semantics-Vergleich auf Metaebene.
+- MM_META_OBSERVER example 3
+- MM_META_OBSERVER example 4
+- MM_META_OBSERVER example 5
+tags: []
+author: unknown
+created: '2025-08-02'
+lean_deep_version: '3.2'
+last_repaired: '2025-08-02T21:33:29.957183'
